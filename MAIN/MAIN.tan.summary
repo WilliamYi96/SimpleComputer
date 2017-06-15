@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.749 ns
+From           : ADDR6
+To             : SRAM:inst|altsyncram:altsyncram_component|altsyncram_g8a1:auto_generated|ram_block1a0~porta_address_reg2
+From Clock     : --
+To Clock       : INCLK
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.412 ns
+From           : SRAM:inst|altsyncram:altsyncram_component|altsyncram_g8a1:auto_generated|q_a[2]
+To             : Q6
+From Clock     : OUTCLK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -0.171 ns
+From           : ADDR5
+To             : SRAM:inst|altsyncram:altsyncram_component|altsyncram_g8a1:auto_generated|ram_block1a0~porta_address_reg3
+From Clock     : --
+To Clock       : INCLK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'INCLK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 163.03 MHz ( period = 6.134 ns )
+From           : SRAM:inst|altsyncram:altsyncram_component|altsyncram_g8a1:auto_generated|ram_block1a0~porta_datain_reg7
+To             : SRAM:inst|altsyncram:altsyncram_component|altsyncram_g8a1:auto_generated|ram_block1a7~porta_memory_reg0
+From Clock     : INCLK
+To Clock       : INCLK
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

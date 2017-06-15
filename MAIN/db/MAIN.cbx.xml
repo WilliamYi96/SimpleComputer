@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="MAIN">
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|SRAM:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_g8a1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
