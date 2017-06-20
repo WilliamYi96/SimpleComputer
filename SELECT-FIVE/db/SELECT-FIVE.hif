@@ -1,0 +1,150 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+11
+935
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+74151
+# storage
+db|SELECT-FIVE.(1).cnf
+db|SELECT-FIVE.(1).cnf
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74151.tdf
+8e23777b7e77bbea2991510888c2e
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+Y
+-1
+3
+GN
+-1
+3
+D4
+-1
+3
+D3
+-1
+3
+D2
+-1
+3
+D1
+-1
+3
+D0
+-1
+3
+C
+-1
+3
+B
+-1
+3
+A
+-1
+3
+}
+# include_file {
+..|..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+74151:inst
+74151:INT2
+74151:INT3
+74151:INT4
+74151:INT5
+74151:INT6
+74151:INT7
+74151:INT8
+}
+# macro_sequence
+
+# end
+# entity
+f74151
+# storage
+db|SELECT-FIVE.(2).cnf
+db|SELECT-FIVE.(2).cnf
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|90|quartus|libraries|others|maxplus2|f74151.bdf
+c65e61b9657937aab8a5c1a38aae44
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74151:inst|f74151:sub
+74151:INT2|f74151:sub
+74151:INT3|f74151:sub
+74151:INT4|f74151:sub
+74151:INT5|f74151:sub
+74151:INT6|f74151:sub
+74151:INT7|f74151:sub
+74151:INT8|f74151:sub
+}
+# macro_sequence
+
+# end
+# entity
+SELECT-FIVE
+# storage
+db|SELECT-FIVE.(0).cnf
+db|SELECT-FIVE.(0).cnf
+# case_insensitive
+# source_file
+SELECT-FIVE.bdf
+0f7e827831c375d641721d2eaa3ef5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

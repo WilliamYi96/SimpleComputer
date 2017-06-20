@@ -1,0 +1,274 @@
+Classic Timing Analyzer report for A_Reg
+Tue Jun 20 12:21:00 2017
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Timing Analyzer Summary
+  3. Timing Analyzer Settings
+  4. Clock Settings Summary
+  5. Parallel Compilation
+  6. Clock Setup: 'INCLK'
+  7. tsu
+  8. tco
+  9. th
+ 10. Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Timing Analyzer Summary                                                                                                                                                                                                                                                                                                                                           ;
++------------------------------+-------+---------------+------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+------------+----------+--------------+
+; Type                         ; Slack ; Required Time ; Actual Time                                    ; From                                                                                                    ; To                                                                                                       ; From Clock ; To Clock ; Failed Paths ;
++------------------------------+-------+---------------+------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+------------+----------+--------------+
+; Worst-case tsu               ; N/A   ; None          ; 5.715 ns                                       ; ADDR1                                                                                                   ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg7 ; --         ; INCLK    ; 0            ;
+; Worst-case tco               ; N/A   ; None          ; 9.636 ns                                       ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[5]                         ; OUT3                                                                                                     ; OUTCLK     ; --       ; 0            ;
+; Worst-case th                ; N/A   ; None          ; -0.277 ns                                      ; ADDR3                                                                                                   ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg5 ; --         ; INCLK    ; 0            ;
+; Clock Setup: 'INCLK'         ; N/A   ; None          ; Restricted to 163.03 MHz ( period = 6.134 ns ) ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg7 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a7~porta_memory_reg0  ; INCLK      ; INCLK    ; 0            ;
+; Total number of failed paths ;       ;               ;                                                ;                                                                                                         ;                                                                                                          ;            ;          ; 0            ;
++------------------------------+-------+---------------+------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+------------+----------+--------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Timing Analyzer Settings                                                                                           ;
++---------------------------------------------------------------------+--------------------+------+----+-------------+
+; Option                                                              ; Setting            ; From ; To ; Entity Name ;
++---------------------------------------------------------------------+--------------------+------+----+-------------+
+; Device Name                                                         ; EP2C8T144C8        ;      ;    ;             ;
+; Timing Models                                                       ; Final              ;      ;    ;             ;
+; Default hold multicycle                                             ; Same as Multicycle ;      ;    ;             ;
+; Cut paths between unrelated clock domains                           ; On                 ;      ;    ;             ;
+; Cut off read during write signal paths                              ; On                 ;      ;    ;             ;
+; Cut off feedback from I/O pins                                      ; On                 ;      ;    ;             ;
+; Report Combined Fast/Slow Timing                                    ; Off                ;      ;    ;             ;
+; Ignore Clock Settings                                               ; Off                ;      ;    ;             ;
+; Analyze latches as synchronous elements                             ; On                 ;      ;    ;             ;
+; Enable Recovery/Removal analysis                                    ; Off                ;      ;    ;             ;
+; Enable Clock Latency                                                ; Off                ;      ;    ;             ;
+; Use TimeQuest Timing Analyzer                                       ; Off                ;      ;    ;             ;
+; Minimum Core Junction Temperature                                   ; 0                  ;      ;    ;             ;
+; Maximum Core Junction Temperature                                   ; 85                 ;      ;    ;             ;
+; Number of source nodes to report per destination node               ; 10                 ;      ;    ;             ;
+; Number of destination nodes to report                               ; 10                 ;      ;    ;             ;
+; Number of paths to report                                           ; 200                ;      ;    ;             ;
+; Report Minimum Timing Checks                                        ; Off                ;      ;    ;             ;
+; Use Fast Timing Models                                              ; Off                ;      ;    ;             ;
+; Report IO Paths Separately                                          ; Off                ;      ;    ;             ;
+; Perform Multicorner Analysis                                        ; On                 ;      ;    ;             ;
+; Reports the worst-case path for each clock domain and analysis      ; Off                ;      ;    ;             ;
+; Removes common clock path pessimism (CCPP) during slack computation ; Off                ;      ;    ;             ;
+; Output I/O Timing Endpoint                                          ; Near End           ;      ;    ;             ;
++---------------------------------------------------------------------+--------------------+------+----+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Settings Summary                                                                                                                                                             ;
++-----------------+--------------------+----------+------------------+---------------+--------------+----------+-----------------------+---------------------+--------+--------------+
+; Clock Node Name ; Clock Setting Name ; Type     ; Fmax Requirement ; Early Latency ; Late Latency ; Based on ; Multiply Base Fmax by ; Divide Base Fmax by ; Offset ; Phase offset ;
++-----------------+--------------------+----------+------------------+---------------+--------------+----------+-----------------------+---------------------+--------+--------------+
+; OUTCLK          ;                    ; User Pin ; None             ; 0.000 ns      ; 0.000 ns     ; --       ; N/A                   ; N/A                 ; N/A    ;              ;
+; INCLK           ;                    ; User Pin ; None             ; 0.000 ns      ; 0.000 ns     ; --       ; N/A                   ; N/A                 ; N/A    ;              ;
++-----------------+--------------------+----------+------------------+---------------+--------------+----------+-----------------------+---------------------+--------+--------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 2           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     1 processor            ; 100.0%      ;
+;     2 processors           ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Setup: 'INCLK'                                                                                                                                                                                                                                                                                                                                                                   ;
++-------+------------------------------------------------+---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+------------+----------+-----------------------------+---------------------------+-------------------------+
+; Slack ; Actual fmax (period)                           ; From                                                                                                    ; To                                                                                                      ; From Clock ; To Clock ; Required Setup Relationship ; Required Longest P2P Time ; Actual Longest P2P Time ;
++-------+------------------------------------------------+---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+------------+----------+-----------------------------+---------------------------+-------------------------+
+; N/A   ; Restricted to 163.03 MHz ( period = 6.134 ns ) ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg0 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_memory_reg0 ; INCLK      ; INCLK    ; None                        ; None                      ; 2.931 ns                ;
+; N/A   ; Restricted to 163.03 MHz ( period = 6.134 ns ) ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg1 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a1~porta_memory_reg0 ; INCLK      ; INCLK    ; None                        ; None                      ; 2.931 ns                ;
+; N/A   ; Restricted to 163.03 MHz ( period = 6.134 ns ) ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg2 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a2~porta_memory_reg0 ; INCLK      ; INCLK    ; None                        ; None                      ; 2.931 ns                ;
+; N/A   ; Restricted to 163.03 MHz ( period = 6.134 ns ) ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg3 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a3~porta_memory_reg0 ; INCLK      ; INCLK    ; None                        ; None                      ; 2.931 ns                ;
+; N/A   ; Restricted to 163.03 MHz ( period = 6.134 ns ) ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg4 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a4~porta_memory_reg0 ; INCLK      ; INCLK    ; None                        ; None                      ; 2.931 ns                ;
+; N/A   ; Restricted to 163.03 MHz ( period = 6.134 ns ) ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg5 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a5~porta_memory_reg0 ; INCLK      ; INCLK    ; None                        ; None                      ; 2.931 ns                ;
+; N/A   ; Restricted to 163.03 MHz ( period = 6.134 ns ) ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg6 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a6~porta_memory_reg0 ; INCLK      ; INCLK    ; None                        ; None                      ; 2.931 ns                ;
+; N/A   ; Restricted to 163.03 MHz ( period = 6.134 ns ) ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg7 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a7~porta_memory_reg0 ; INCLK      ; INCLK    ; None                        ; None                      ; 2.931 ns                ;
++-------+------------------------------------------------+---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+------------+----------+-----------------------------+---------------------------+-------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; tsu                                                                                                                                                             ;
++-------+--------------+------------+-------+----------------------------------------------------------------------------------------------------------+----------+
+; Slack ; Required tsu ; Actual tsu ; From  ; To                                                                                                       ; To Clock ;
++-------+--------------+------------+-------+----------------------------------------------------------------------------------------------------------+----------+
+; N/A   ; None         ; 5.715 ns   ; ADDR1 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg7 ; INCLK    ;
+; N/A   ; None         ; 5.551 ns   ; ADDR7 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg1 ; INCLK    ;
+; N/A   ; None         ; 5.490 ns   ; WREN  ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_we_reg       ; INCLK    ;
+; N/A   ; None         ; 5.372 ns   ; DATA2 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg6  ; INCLK    ;
+; N/A   ; None         ; 5.304 ns   ; ADDR8 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg0 ; INCLK    ;
+; N/A   ; None         ; 5.299 ns   ; DATA1 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg7  ; INCLK    ;
+; N/A   ; None         ; 5.250 ns   ; ADDR6 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg2 ; INCLK    ;
+; N/A   ; None         ; 5.234 ns   ; DATA8 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg0  ; INCLK    ;
+; N/A   ; None         ; 5.214 ns   ; DATA6 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg2  ; INCLK    ;
+; N/A   ; None         ; 5.081 ns   ; DATA7 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg1  ; INCLK    ;
+; N/A   ; None         ; 5.074 ns   ; DATA3 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg5  ; INCLK    ;
+; N/A   ; None         ; 5.069 ns   ; DATA5 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg3  ; INCLK    ;
+; N/A   ; None         ; 4.639 ns   ; DATA4 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg4  ; INCLK    ;
+; N/A   ; None         ; 1.276 ns   ; ADDR2 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg6 ; INCLK    ;
+; N/A   ; None         ; 1.011 ns   ; ADDR5 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg3 ; INCLK    ;
+; N/A   ; None         ; 0.922 ns   ; ADDR4 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg4 ; INCLK    ;
+; N/A   ; None         ; 0.590 ns   ; ADDR3 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg5 ; INCLK    ;
++-------+--------------+------------+-------+----------------------------------------------------------------------------------------------------------+----------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; tco                                                                                                                                     ;
++-------+--------------+------------+---------------------------------------------------------------------------------+------+------------+
+; Slack ; Required tco ; Actual tco ; From                                                                            ; To   ; From Clock ;
++-------+--------------+------------+---------------------------------------------------------------------------------+------+------------+
+; N/A   ; None         ; 9.636 ns   ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[5] ; OUT3 ; OUTCLK     ;
+; N/A   ; None         ; 8.972 ns   ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[2] ; OUT6 ; OUTCLK     ;
+; N/A   ; None         ; 8.563 ns   ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[0] ; OUT8 ; OUTCLK     ;
+; N/A   ; None         ; 8.557 ns   ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[6] ; OUT2 ; OUTCLK     ;
+; N/A   ; None         ; 8.394 ns   ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[7] ; OUT1 ; OUTCLK     ;
+; N/A   ; None         ; 8.386 ns   ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[1] ; OUT7 ; OUTCLK     ;
+; N/A   ; None         ; 8.366 ns   ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[3] ; OUT5 ; OUTCLK     ;
+; N/A   ; None         ; 8.361 ns   ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[4] ; OUT4 ; OUTCLK     ;
++-------+--------------+------------+---------------------------------------------------------------------------------+------+------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; th                                                                                                                                                                    ;
++---------------+-------------+-----------+-------+----------------------------------------------------------------------------------------------------------+----------+
+; Minimum Slack ; Required th ; Actual th ; From  ; To                                                                                                       ; To Clock ;
++---------------+-------------+-----------+-------+----------------------------------------------------------------------------------------------------------+----------+
+; N/A           ; None        ; -0.277 ns ; ADDR3 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg5 ; INCLK    ;
+; N/A           ; None        ; -0.609 ns ; ADDR4 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg4 ; INCLK    ;
+; N/A           ; None        ; -0.698 ns ; ADDR5 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg3 ; INCLK    ;
+; N/A           ; None        ; -0.963 ns ; ADDR2 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg6 ; INCLK    ;
+; N/A           ; None        ; -4.326 ns ; DATA4 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg4  ; INCLK    ;
+; N/A           ; None        ; -4.756 ns ; DATA5 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg3  ; INCLK    ;
+; N/A           ; None        ; -4.761 ns ; DATA3 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg5  ; INCLK    ;
+; N/A           ; None        ; -4.768 ns ; DATA7 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg1  ; INCLK    ;
+; N/A           ; None        ; -4.901 ns ; DATA6 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg2  ; INCLK    ;
+; N/A           ; None        ; -4.921 ns ; DATA8 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg0  ; INCLK    ;
+; N/A           ; None        ; -4.937 ns ; ADDR6 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg2 ; INCLK    ;
+; N/A           ; None        ; -4.986 ns ; DATA1 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg7  ; INCLK    ;
+; N/A           ; None        ; -4.991 ns ; ADDR8 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg0 ; INCLK    ;
+; N/A           ; None        ; -5.059 ns ; DATA2 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg6  ; INCLK    ;
+; N/A           ; None        ; -5.177 ns ; WREN  ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_we_reg       ; INCLK    ;
+; N/A           ; None        ; -5.238 ns ; ADDR7 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg1 ; INCLK    ;
+; N/A           ; None        ; -5.402 ns ; ADDR1 ; nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg7 ; INCLK    ;
++---------------+-------------+-----------+-------+----------------------------------------------------------------------------------------------------------+----------+
+
+
++--------------------------+
+; Timing Analyzer Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Classic Timing Analyzer
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Tue Jun 20 12:21:00 2017
+Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off A_Reg -c A_Reg --timing_analysis_only
+Info: Parallel compilation is enabled and will use 2 of the 2 processors detected
+Warning: Found pins functioning as undefined clocks and/or memory enables
+    Info: Assuming node "OUTCLK" is an undefined clock
+    Info: Assuming node "INCLK" is an undefined clock
+Info: No valid register-to-register data paths exist for clock "OUTCLK"
+Info: Clock "INCLK" Internal fmax is restricted to 163.03 MHz between source memory "nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg0" and destination memory "nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_memory_reg0"
+    Info: fmax restricted to Clock High delay (3.067 ns) plus Clock Low delay (3.067 ns) : restricted to 6.134 ns. Expand message to see actual delay path.
+        Info: + Longest memory to memory delay is 2.931 ns
+            Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = M4K_X11_Y5; Fanout = 1; MEM Node = 'nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg0'
+            Info: 2: + IC(0.000 ns) + CELL(2.931 ns) = 2.931 ns; Loc. = M4K_X11_Y5; Fanout = 0; MEM Node = 'nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_memory_reg0'
+            Info: Total cell delay = 2.931 ns ( 100.00 % )
+        Info: - Smallest clock skew is -0.019 ns
+            Info: + Shortest clock path from clock "INCLK" to destination memory is 2.891 ns
+                Info: 1: + IC(0.000 ns) + CELL(1.090 ns) = 1.090 ns; Loc. = PIN_17; Fanout = 1; CLK Node = 'INCLK'
+                Info: 2: + IC(0.139 ns) + CELL(0.000 ns) = 1.229 ns; Loc. = CLKCTRL_G2; Fanout = 25; COMB Node = 'INCLK~clkctrl'
+                Info: 3: + IC(0.847 ns) + CELL(0.815 ns) = 2.891 ns; Loc. = M4K_X11_Y5; Fanout = 0; MEM Node = 'nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_memory_reg0'
+                Info: Total cell delay = 1.905 ns ( 65.89 % )
+                Info: Total interconnect delay = 0.986 ns ( 34.11 % )
+            Info: - Longest clock path from clock "INCLK" to source memory is 2.910 ns
+                Info: 1: + IC(0.000 ns) + CELL(1.090 ns) = 1.090 ns; Loc. = PIN_17; Fanout = 1; CLK Node = 'INCLK'
+                Info: 2: + IC(0.139 ns) + CELL(0.000 ns) = 1.229 ns; Loc. = CLKCTRL_G2; Fanout = 25; COMB Node = 'INCLK~clkctrl'
+                Info: 3: + IC(0.847 ns) + CELL(0.834 ns) = 2.910 ns; Loc. = M4K_X11_Y5; Fanout = 1; MEM Node = 'nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_datain_reg0'
+                Info: Total cell delay = 1.924 ns ( 66.12 % )
+                Info: Total interconnect delay = 0.986 ns ( 33.88 % )
+        Info: + Micro clock to output delay of source is 0.260 ns
+        Info: + Micro setup delay of destination is 0.046 ns
+Info: tsu for memory "nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg7" (data pin = "ADDR1", clock pin = "INCLK") is 5.715 ns
+    Info: + Longest pin to memory delay is 8.580 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.935 ns) = 0.935 ns; Loc. = PIN_99; Fanout = 1; PIN Node = 'ADDR1'
+        Info: 2: + IC(7.469 ns) + CELL(0.176 ns) = 8.580 ns; Loc. = M4K_X11_Y5; Fanout = 8; MEM Node = 'nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg7'
+        Info: Total cell delay = 1.111 ns ( 12.95 % )
+        Info: Total interconnect delay = 7.469 ns ( 87.05 % )
+    Info: + Micro setup delay of destination is 0.046 ns
+    Info: - Shortest clock path from clock "INCLK" to destination memory is 2.911 ns
+        Info: 1: + IC(0.000 ns) + CELL(1.090 ns) = 1.090 ns; Loc. = PIN_17; Fanout = 1; CLK Node = 'INCLK'
+        Info: 2: + IC(0.139 ns) + CELL(0.000 ns) = 1.229 ns; Loc. = CLKCTRL_G2; Fanout = 25; COMB Node = 'INCLK~clkctrl'
+        Info: 3: + IC(0.847 ns) + CELL(0.835 ns) = 2.911 ns; Loc. = M4K_X11_Y5; Fanout = 8; MEM Node = 'nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg7'
+        Info: Total cell delay = 1.925 ns ( 66.13 % )
+        Info: Total interconnect delay = 0.986 ns ( 33.87 % )
+Info: tco from clock "OUTCLK" to destination pin "OUT3" through memory "nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[5]" is 9.636 ns
+    Info: + Longest clock path from clock "OUTCLK" to source memory is 2.891 ns
+        Info: 1: + IC(0.000 ns) + CELL(1.090 ns) = 1.090 ns; Loc. = PIN_18; Fanout = 1; CLK Node = 'OUTCLK'
+        Info: 2: + IC(0.139 ns) + CELL(0.000 ns) = 1.229 ns; Loc. = CLKCTRL_G1; Fanout = 8; COMB Node = 'OUTCLK~clkctrl'
+        Info: 3: + IC(0.847 ns) + CELL(0.815 ns) = 2.891 ns; Loc. = M4K_X11_Y5; Fanout = 1; MEM Node = 'nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[5]'
+        Info: Total cell delay = 1.905 ns ( 65.89 % )
+        Info: Total interconnect delay = 0.986 ns ( 34.11 % )
+    Info: + Micro clock to output delay of source is 0.260 ns
+    Info: + Longest memory to pin delay is 6.485 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.109 ns) = 0.109 ns; Loc. = M4K_X11_Y5; Fanout = 1; MEM Node = 'nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[5]'
+        Info: 2: + IC(3.140 ns) + CELL(3.236 ns) = 6.485 ns; Loc. = PIN_63; Fanout = 0; PIN Node = 'OUT3'
+        Info: Total cell delay = 3.345 ns ( 51.58 % )
+        Info: Total interconnect delay = 3.140 ns ( 48.42 % )
+Info: th for memory "nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg5" (data pin = "ADDR3", clock pin = "INCLK") is -0.277 ns
+    Info: + Longest clock path from clock "INCLK" to destination memory is 2.911 ns
+        Info: 1: + IC(0.000 ns) + CELL(1.090 ns) = 1.090 ns; Loc. = PIN_17; Fanout = 1; CLK Node = 'INCLK'
+        Info: 2: + IC(0.139 ns) + CELL(0.000 ns) = 1.229 ns; Loc. = CLKCTRL_G2; Fanout = 25; COMB Node = 'INCLK~clkctrl'
+        Info: 3: + IC(0.847 ns) + CELL(0.835 ns) = 2.911 ns; Loc. = M4K_X11_Y5; Fanout = 8; MEM Node = 'nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg5'
+        Info: Total cell delay = 1.925 ns ( 66.13 % )
+        Info: Total interconnect delay = 0.986 ns ( 33.87 % )
+    Info: + Micro hold delay of destination is 0.267 ns
+    Info: - Shortest pin to memory delay is 3.455 ns
+        Info: 1: + IC(0.000 ns) + CELL(1.100 ns) = 1.100 ns; Loc. = PIN_90; Fanout = 1; PIN Node = 'ADDR3'
+        Info: 2: + IC(2.179 ns) + CELL(0.176 ns) = 3.455 ns; Loc. = M4K_X11_Y5; Fanout = 8; MEM Node = 'nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_address_reg5'
+        Info: Total cell delay = 1.276 ns ( 36.93 % )
+        Info: Total interconnect delay = 2.179 ns ( 63.07 % )
+Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 135 megabytes
+    Info: Processing ended: Tue Jun 20 12:21:01 2017
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

@@ -1,0 +1,85 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+11
+935
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+logicPr2
+# storage
+db|logicPr2.(0).cnf
+db|logicPr2.(0).cnf
+# case_insensitive
+# source_file
+logicPr2.bdf
+faf787dea82b537b34b65131cc1ca1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+74138
+# storage
+db|logicPr2.(1).cnf
+db|logicPr2.(1).cnf
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74138.bdf
+6cadbea2e3f85766eb8e4e262292077
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74138:inst8
+74138:inst10
+74138:inst11
+74138:inst12
+}
+# macro_sequence
+
+# end
+# entity
+74139
+# storage
+db|logicPr2.(2).cnf
+db|logicPr2.(2).cnf
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74139.bdf
+4ab546d7302e8fe86bee1b6b8b90e8c6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74139:inst
+}
+# macro_sequence
+
+# end
+# complete
+

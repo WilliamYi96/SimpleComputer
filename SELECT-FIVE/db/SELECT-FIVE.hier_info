@@ -1,0 +1,355 @@
+|SELECT-FIVE
+OUT1 <= 74151:inst.Y
+/EN => 74151:inst.GN
+/EN => 74151:INT2.GN
+/EN => 74151:INT3.GN
+/EN => 74151:INT4.GN
+/EN => 74151:INT5.GN
+/EN => 74151:INT6.GN
+/EN => 74151:INT7.GN
+/EN => 74151:INT8.GN
+CTRO3 => 74151:inst.C
+CTRO3 => 74151:INT2.C
+CTRO3 => 74151:INT3.C
+CTRO3 => 74151:INT4.C
+CTRO3 => 74151:INT5.C
+CTRO3 => 74151:INT6.C
+CTRO3 => 74151:INT7.C
+CTRO3 => 74151:INT8.C
+CTRO2 => 74151:inst.B
+CTRO2 => 74151:INT2.B
+CTRO2 => 74151:INT3.B
+CTRO2 => 74151:INT4.B
+CTRO2 => 74151:INT5.B
+CTRO2 => 74151:INT6.B
+CTRO2 => 74151:INT7.B
+CTRO2 => 74151:INT8.B
+CTRO1 => 74151:inst.A
+CTRO1 => 74151:INT2.A
+CTRO1 => 74151:INT3.A
+CTRO1 => 74151:INT4.A
+CTRO1 => 74151:INT5.A
+CTRO1 => 74151:INT6.A
+CTRO1 => 74151:INT7.A
+CTRO1 => 74151:INT8.A
+D11 => 74151:inst.D0
+D21 => 74151:inst.D1
+D51 => 74151:inst.D4
+D41 => 74151:inst.D3
+D31 => 74151:inst.D2
+OUT2 <= 74151:INT2.Y
+D12 => 74151:INT2.D0
+D22 => 74151:INT2.D1
+D52 => 74151:INT2.D4
+D42 => 74151:INT2.D3
+D32 => 74151:INT2.D2
+OUT3 <= 74151:INT3.Y
+D13 => 74151:INT3.D0
+D23 => 74151:INT3.D1
+D53 => 74151:INT3.D4
+D43 => 74151:INT3.D3
+D33 => 74151:INT3.D2
+OUT4 <= 74151:INT4.Y
+D14 => 74151:INT4.D0
+D24 => 74151:INT4.D1
+D54 => 74151:INT4.D4
+D44 => 74151:INT4.D3
+D34 => 74151:INT4.D2
+OUT5 <= 74151:INT5.Y
+D15 => 74151:INT5.D0
+D25 => 74151:INT5.D1
+D55 => 74151:INT5.D4
+D45 => 74151:INT5.D3
+D35 => 74151:INT5.D2
+OUT6 <= 74151:INT6.Y
+D16 => 74151:INT6.D0
+D26 => 74151:INT6.D1
+D56 => 74151:INT6.D4
+D46 => 74151:INT6.D3
+D36 => 74151:INT6.D2
+OUT7 <= 74151:INT7.Y
+D17 => 74151:INT7.D0
+D27 => 74151:INT7.D1
+D57 => 74151:INT7.D4
+D47 => 74151:INT7.D3
+D37 => 74151:INT7.D2
+OUT8 <= 74151:INT8.Y
+D18 => 74151:INT8.D0
+D28 => 74151:INT8.D1
+D58 => 74151:INT8.D4
+D48 => 74151:INT8.D3
+D38 => 74151:INT8.D2
+
+
+|SELECT-FIVE|74151:inst
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => ~NO_FANOUT~
+d[6] => ~NO_FANOUT~
+d[7] => ~NO_FANOUT~
+gn => f74151:sub.gn
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|SELECT-FIVE|74151:inst|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SELECT-FIVE|74151:INT2
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => ~NO_FANOUT~
+d[6] => ~NO_FANOUT~
+d[7] => ~NO_FANOUT~
+gn => f74151:sub.gn
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|SELECT-FIVE|74151:INT2|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SELECT-FIVE|74151:INT3
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => ~NO_FANOUT~
+d[6] => ~NO_FANOUT~
+d[7] => ~NO_FANOUT~
+gn => f74151:sub.gn
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|SELECT-FIVE|74151:INT3|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SELECT-FIVE|74151:INT4
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => ~NO_FANOUT~
+d[6] => ~NO_FANOUT~
+d[7] => ~NO_FANOUT~
+gn => f74151:sub.gn
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|SELECT-FIVE|74151:INT4|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SELECT-FIVE|74151:INT5
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => ~NO_FANOUT~
+d[6] => ~NO_FANOUT~
+d[7] => ~NO_FANOUT~
+gn => f74151:sub.gn
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|SELECT-FIVE|74151:INT5|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SELECT-FIVE|74151:INT6
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => ~NO_FANOUT~
+d[6] => ~NO_FANOUT~
+d[7] => ~NO_FANOUT~
+gn => f74151:sub.gn
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|SELECT-FIVE|74151:INT6|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SELECT-FIVE|74151:INT7
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => ~NO_FANOUT~
+d[6] => ~NO_FANOUT~
+d[7] => ~NO_FANOUT~
+gn => f74151:sub.gn
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|SELECT-FIVE|74151:INT7|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SELECT-FIVE|74151:INT8
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => ~NO_FANOUT~
+d[6] => ~NO_FANOUT~
+d[7] => ~NO_FANOUT~
+gn => f74151:sub.gn
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|SELECT-FIVE|74151:INT8|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+

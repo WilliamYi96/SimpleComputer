@@ -1,0 +1,270 @@
+Simulator report for logicProcess
+Tue Jun 20 10:30:56 2017
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 72 nodes     ;
+; Simulation Coverage         ;      48.61 % ;
+; Total Number of Transitions ; 879          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
+; Device                      ; EP2C8T144C8  ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      48.61 % ;
+; Total nodes checked                                 ; 72           ;
+; Total output ports checked                          ; 72           ;
+; Total output ports with complete 1/0-value coverage ; 35           ;
+; Total output ports with no 1/0-value coverage       ; 37           ;
+; Total output ports with no 1-value coverage         ; 37           ;
+; Total output ports with no 0-value coverage         ; 37           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                      ;
++-----------------------------------------------+-----------------------------------------------+------------------+
+; Node Name                                     ; Output Port Name                              ; Output Port Type ;
++-----------------------------------------------+-----------------------------------------------+------------------+
+; |logicProcess|logicPr2:inst|74138:inst10|21~0 ; |logicProcess|logicPr2:inst|74138:inst10|21~0 ; combout          ;
+; |logicProcess|logicPr2:inst|74138:inst10|21~1 ; |logicProcess|logicPr2:inst|74138:inst10|21~1 ; combout          ;
+; |logicProcess|logicPr2:inst|74138:inst10|15~0 ; |logicProcess|logicPr2:inst|74138:inst10|15~0 ; combout          ;
+; |logicProcess|inst1~0                         ; |logicProcess|inst1~0                         ; combout          ;
+; |logicProcess|logicPr2:inst|74138:inst10|18~0 ; |logicProcess|logicPr2:inst|74138:inst10|18~0 ; combout          ;
+; |logicProcess|logicPr2:inst|74138:inst10|18~1 ; |logicProcess|logicPr2:inst|74138:inst10|18~1 ; combout          ;
+; |logicProcess|inst1~1                         ; |logicProcess|inst1~1                         ; combout          ;
+; |logicProcess|logicPr2:inst|74138:inst11|18~4 ; |logicProcess|logicPr2:inst|74138:inst11|18~4 ; combout          ;
+; |logicProcess|inst8~0                         ; |logicProcess|inst8~0                         ; combout          ;
+; |logicProcess|inst10~0                        ; |logicProcess|inst10~0                        ; combout          ;
+; |logicProcess|inst11                          ; |logicProcess|inst11                          ; combout          ;
+; |logicProcess|inst14~0                        ; |logicProcess|inst14~0                        ; combout          ;
+; |logicProcess|inst20~2                        ; |logicProcess|inst20~2                        ; combout          ;
+; |logicProcess|inst25~0                        ; |logicProcess|inst25~0                        ; combout          ;
+; |logicProcess|inst18~0                        ; |logicProcess|inst18~0                        ; combout          ;
+; |logicProcess|inst23~0                        ; |logicProcess|inst23~0                        ; combout          ;
+; |logicProcess|inst21~0                        ; |logicProcess|inst21~0                        ; combout          ;
+; |logicProcess|logicPr2:inst|74138:inst10|15~1 ; |logicProcess|logicPr2:inst|74138:inst10|15~1 ; combout          ;
+; |logicProcess|inst26~2                        ; |logicProcess|inst26~2                        ; combout          ;
+; |logicProcess|inst27                          ; |logicProcess|inst27                          ; combout          ;
+; |logicProcess|logicPr2:inst|74138:inst11|18~5 ; |logicProcess|logicPr2:inst|74138:inst11|18~5 ; combout          ;
+; |logicProcess|x1                              ; |logicProcess|x1                              ; padio            ;
+; |logicProcess|x3                              ; |logicProcess|x3                              ; padio            ;
+; |logicProcess|x4                              ; |logicProcess|x4                              ; padio            ;
+; |logicProcess|x8                              ; |logicProcess|x8                              ; padio            ;
+; |logicProcess|x10                             ; |logicProcess|x10                             ; padio            ;
+; |logicProcess|op1                             ; |logicProcess|op1~corein                      ; combout          ;
+; |logicProcess|op4                             ; |logicProcess|op4~corein                      ; combout          ;
+; |logicProcess|op3                             ; |logicProcess|op3~corein                      ; combout          ;
+; |logicProcess|op2                             ; |logicProcess|op2~corein                      ; combout          ;
+; |logicProcess|B3                              ; |logicProcess|B3~corein                       ; combout          ;
+; |logicProcess|B1                              ; |logicProcess|B1~corein                       ; combout          ;
+; |logicProcess|B2                              ; |logicProcess|B2~corein                       ; combout          ;
+; |logicProcess|B0                              ; |logicProcess|B0~corein                       ; combout          ;
+; |logicProcess|B4                              ; |logicProcess|B4~corein                       ; combout          ;
++-----------------------------------------------+-----------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                       ;
++----------------------------------------------+----------------------------------------------+------------------+
+; Node Name                                    ; Output Port Name                             ; Output Port Type ;
++----------------------------------------------+----------------------------------------------+------------------+
+; |logicProcess|IR:inst31|74138:inst3|16~0     ; |logicProcess|IR:inst31|74138:inst3|16~0     ; combout          ;
+; |logicProcess|IR:inst31|74138:inst3|16~1     ; |logicProcess|IR:inst31|74138:inst3|16~1     ; combout          ;
+; |logicProcess|logicPr2:inst|74138:inst8|18~0 ; |logicProcess|logicPr2:inst|74138:inst8|18~0 ; combout          ;
+; |logicProcess|IR:inst31|74138:inst3|15~0     ; |logicProcess|IR:inst31|74138:inst3|15~0     ; combout          ;
+; |logicProcess|inst6                          ; |logicProcess|inst6                          ; combout          ;
+; |logicProcess|inst14~1                       ; |logicProcess|inst14~1                       ; combout          ;
+; |logicProcess|inst15                         ; |logicProcess|inst15                         ; combout          ;
+; |logicProcess|inst20~0                       ; |logicProcess|inst20~0                       ; combout          ;
+; |logicProcess|inst20~1                       ; |logicProcess|inst20~1                       ; combout          ;
+; |logicProcess|inst16                         ; |logicProcess|inst16                         ; combout          ;
+; |logicProcess|inst20                         ; |logicProcess|inst20                         ; combout          ;
+; |logicProcess|inst19~0                       ; |logicProcess|inst19~0                       ; combout          ;
+; |logicProcess|inst25~1                       ; |logicProcess|inst25~1                       ; combout          ;
+; |logicProcess|inst18                         ; |logicProcess|inst18                         ; combout          ;
+; |logicProcess|inst23~1                       ; |logicProcess|inst23~1                       ; combout          ;
+; |logicProcess|inst21                         ; |logicProcess|inst21                         ; combout          ;
+; |logicProcess|inst25~2                       ; |logicProcess|inst25~2                       ; combout          ;
+; |logicProcess|inst19~1                       ; |logicProcess|inst19~1                       ; combout          ;
+; |logicProcess|inst25~3                       ; |logicProcess|inst25~3                       ; combout          ;
+; |logicProcess|inst28~0                       ; |logicProcess|inst28~0                       ; combout          ;
+; |logicProcess|inst29~0                       ; |logicProcess|inst29~0                       ; combout          ;
+; |logicProcess|inst26~3                       ; |logicProcess|inst26~3                       ; combout          ;
+; |logicProcess|inst30                         ; |logicProcess|inst30                         ; combout          ;
+; |logicProcess|x2                             ; |logicProcess|x2                             ; padio            ;
+; |logicProcess|x5                             ; |logicProcess|x5                             ; padio            ;
+; |logicProcess|x6                             ; |logicProcess|x6                             ; padio            ;
+; |logicProcess|x7                             ; |logicProcess|x7                             ; padio            ;
+; |logicProcess|x9                             ; |logicProcess|x9                             ; padio            ;
+; |logicProcess|x11                            ; |logicProcess|x11                            ; padio            ;
+; |logicProcess|x12                            ; |logicProcess|x12                            ; padio            ;
+; |logicProcess|x13                            ; |logicProcess|x13                            ; padio            ;
+; |logicProcess|x14                            ; |logicProcess|x14                            ; padio            ;
+; |logicProcess|x15                            ; |logicProcess|x15                            ; padio            ;
+; |logicProcess|x16                            ; |logicProcess|x16                            ; padio            ;
+; |logicProcess|x17                            ; |logicProcess|x17                            ; padio            ;
+; |logicProcess|x18                            ; |logicProcess|x18                            ; padio            ;
+; |logicProcess|ENT                            ; |logicProcess|ENT~corein                     ; combout          ;
++----------------------------------------------+----------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                       ;
++----------------------------------------------+----------------------------------------------+------------------+
+; Node Name                                    ; Output Port Name                             ; Output Port Type ;
++----------------------------------------------+----------------------------------------------+------------------+
+; |logicProcess|IR:inst31|74138:inst3|16~0     ; |logicProcess|IR:inst31|74138:inst3|16~0     ; combout          ;
+; |logicProcess|IR:inst31|74138:inst3|16~1     ; |logicProcess|IR:inst31|74138:inst3|16~1     ; combout          ;
+; |logicProcess|logicPr2:inst|74138:inst8|18~0 ; |logicProcess|logicPr2:inst|74138:inst8|18~0 ; combout          ;
+; |logicProcess|IR:inst31|74138:inst3|15~0     ; |logicProcess|IR:inst31|74138:inst3|15~0     ; combout          ;
+; |logicProcess|inst6                          ; |logicProcess|inst6                          ; combout          ;
+; |logicProcess|inst14~1                       ; |logicProcess|inst14~1                       ; combout          ;
+; |logicProcess|inst15                         ; |logicProcess|inst15                         ; combout          ;
+; |logicProcess|inst20~0                       ; |logicProcess|inst20~0                       ; combout          ;
+; |logicProcess|inst20~1                       ; |logicProcess|inst20~1                       ; combout          ;
+; |logicProcess|inst16                         ; |logicProcess|inst16                         ; combout          ;
+; |logicProcess|inst20                         ; |logicProcess|inst20                         ; combout          ;
+; |logicProcess|inst19~0                       ; |logicProcess|inst19~0                       ; combout          ;
+; |logicProcess|inst25~1                       ; |logicProcess|inst25~1                       ; combout          ;
+; |logicProcess|inst18                         ; |logicProcess|inst18                         ; combout          ;
+; |logicProcess|inst23~1                       ; |logicProcess|inst23~1                       ; combout          ;
+; |logicProcess|inst21                         ; |logicProcess|inst21                         ; combout          ;
+; |logicProcess|inst25~2                       ; |logicProcess|inst25~2                       ; combout          ;
+; |logicProcess|inst19~1                       ; |logicProcess|inst19~1                       ; combout          ;
+; |logicProcess|inst25~3                       ; |logicProcess|inst25~3                       ; combout          ;
+; |logicProcess|inst28~0                       ; |logicProcess|inst28~0                       ; combout          ;
+; |logicProcess|inst29~0                       ; |logicProcess|inst29~0                       ; combout          ;
+; |logicProcess|inst26~3                       ; |logicProcess|inst26~3                       ; combout          ;
+; |logicProcess|inst30                         ; |logicProcess|inst30                         ; combout          ;
+; |logicProcess|x2                             ; |logicProcess|x2                             ; padio            ;
+; |logicProcess|x5                             ; |logicProcess|x5                             ; padio            ;
+; |logicProcess|x6                             ; |logicProcess|x6                             ; padio            ;
+; |logicProcess|x7                             ; |logicProcess|x7                             ; padio            ;
+; |logicProcess|x9                             ; |logicProcess|x9                             ; padio            ;
+; |logicProcess|x11                            ; |logicProcess|x11                            ; padio            ;
+; |logicProcess|x12                            ; |logicProcess|x12                            ; padio            ;
+; |logicProcess|x13                            ; |logicProcess|x13                            ; padio            ;
+; |logicProcess|x14                            ; |logicProcess|x14                            ; padio            ;
+; |logicProcess|x15                            ; |logicProcess|x15                            ; padio            ;
+; |logicProcess|x16                            ; |logicProcess|x16                            ; padio            ;
+; |logicProcess|x17                            ; |logicProcess|x17                            ; padio            ;
+; |logicProcess|x18                            ; |logicProcess|x18                            ; padio            ;
+; |logicProcess|ENT                            ; |logicProcess|ENT~corein                     ; combout          ;
++----------------------------------------------+----------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Tue Jun 20 10:30:55 2017
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off logicProcess -c logicProcess
+Info: Using vector source file "C:/Documents and Settings/Administrator/×ÀÃæ/ComputerFinal/logicProcess/logicProcess.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      48.61 %
+Info: Number of transitions in simulation is 879
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 122 megabytes
+    Info: Processing ended: Tue Jun 20 10:30:57 2017
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

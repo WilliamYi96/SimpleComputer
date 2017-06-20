@@ -1,0 +1,225 @@
+Simulator report for SELECT-THREE
+Mon Jun 19 15:42:58 2017
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 53 nodes     ;
+; Simulation Coverage         ;      67.92 % ;
+; Total Number of Transitions ; 1179         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
+; Device                      ; EP2C8T144C8  ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      67.92 % ;
+; Total nodes checked                                 ; 53           ;
+; Total output ports checked                          ; 53           ;
+; Total output ports with complete 1/0-value coverage ; 36           ;
+; Total output ports with no 1/0-value coverage       ; 11           ;
+; Total output ports with no 1-value coverage         ; 11           ;
+; Total output ports with no 0-value coverage         ; 17           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                        ;
++--------------------------------+--------------------------------+------------------+
+; Node Name                      ; Output Port Name               ; Output Port Type ;
++--------------------------------+--------------------------------+------------------+
+; |SELECT-THREE|74153:inst2|9~0  ; |SELECT-THREE|74153:inst2|9~0  ; combout          ;
+; |SELECT-THREE|74153:inst2|9~1  ; |SELECT-THREE|74153:inst2|9~1  ; combout          ;
+; |SELECT-THREE|74153:inst2|10~0 ; |SELECT-THREE|74153:inst2|10~0 ; combout          ;
+; |SELECT-THREE|74153:inst2|10~1 ; |SELECT-THREE|74153:inst2|10~1 ; combout          ;
+; |SELECT-THREE|74153:inst3|9~0  ; |SELECT-THREE|74153:inst3|9~0  ; combout          ;
+; |SELECT-THREE|74153:inst3|9~1  ; |SELECT-THREE|74153:inst3|9~1  ; combout          ;
+; |SELECT-THREE|74153:inst3|10~0 ; |SELECT-THREE|74153:inst3|10~0 ; combout          ;
+; |SELECT-THREE|74153:inst3|10~1 ; |SELECT-THREE|74153:inst3|10~1 ; combout          ;
+; |SELECT-THREE|74153:inst4|9~0  ; |SELECT-THREE|74153:inst4|9~0  ; combout          ;
+; |SELECT-THREE|74153:inst4|9~1  ; |SELECT-THREE|74153:inst4|9~1  ; combout          ;
+; |SELECT-THREE|74153:inst4|10~0 ; |SELECT-THREE|74153:inst4|10~0 ; combout          ;
+; |SELECT-THREE|74153:inst4|10~1 ; |SELECT-THREE|74153:inst4|10~1 ; combout          ;
+; |SELECT-THREE|OUT3             ; |SELECT-THREE|OUT3             ; padio            ;
+; |SELECT-THREE|OUT4             ; |SELECT-THREE|OUT4             ; padio            ;
+; |SELECT-THREE|OUT5             ; |SELECT-THREE|OUT5             ; padio            ;
+; |SELECT-THREE|OUT6             ; |SELECT-THREE|OUT6             ; padio            ;
+; |SELECT-THREE|OUT7             ; |SELECT-THREE|OUT7             ; padio            ;
+; |SELECT-THREE|OUT8             ; |SELECT-THREE|OUT8             ; padio            ;
+; |SELECT-THREE|D33              ; |SELECT-THREE|D33~corein       ; combout          ;
+; |SELECT-THREE|D13              ; |SELECT-THREE|D13~corein       ; combout          ;
+; |SELECT-THREE|D23              ; |SELECT-THREE|D23~corein       ; combout          ;
+; |SELECT-THREE|D34              ; |SELECT-THREE|D34~corein       ; combout          ;
+; |SELECT-THREE|D14              ; |SELECT-THREE|D14~corein       ; combout          ;
+; |SELECT-THREE|D24              ; |SELECT-THREE|D24~corein       ; combout          ;
+; |SELECT-THREE|D35              ; |SELECT-THREE|D35~corein       ; combout          ;
+; |SELECT-THREE|D15              ; |SELECT-THREE|D15~corein       ; combout          ;
+; |SELECT-THREE|D25              ; |SELECT-THREE|D25~corein       ; combout          ;
+; |SELECT-THREE|D36              ; |SELECT-THREE|D36~corein       ; combout          ;
+; |SELECT-THREE|D16              ; |SELECT-THREE|D16~corein       ; combout          ;
+; |SELECT-THREE|D26              ; |SELECT-THREE|D26~corein       ; combout          ;
+; |SELECT-THREE|D37              ; |SELECT-THREE|D37~corein       ; combout          ;
+; |SELECT-THREE|D17              ; |SELECT-THREE|D17~corein       ; combout          ;
+; |SELECT-THREE|D27              ; |SELECT-THREE|D27~corein       ; combout          ;
+; |SELECT-THREE|D38              ; |SELECT-THREE|D38~corein       ; combout          ;
+; |SELECT-THREE|D18              ; |SELECT-THREE|D18~corein       ; combout          ;
+; |SELECT-THREE|D28              ; |SELECT-THREE|D28~corein       ; combout          ;
++--------------------------------+--------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                         ;
++-------------------------------+-------------------------------+------------------+
+; Node Name                     ; Output Port Name              ; Output Port Type ;
++-------------------------------+-------------------------------+------------------+
+; |SELECT-THREE|74153:inst1|9~0 ; |SELECT-THREE|74153:inst1|9~0 ; combout          ;
+; |SELECT-THREE|74153:inst1|9~1 ; |SELECT-THREE|74153:inst1|9~1 ; combout          ;
+; |SELECT-THREE|74153:inst1|9~2 ; |SELECT-THREE|74153:inst1|9~2 ; combout          ;
+; |SELECT-THREE|74153:inst1|9~3 ; |SELECT-THREE|74153:inst1|9~3 ; combout          ;
+; |SELECT-THREE|OUT1            ; |SELECT-THREE|OUT1            ; padio            ;
+; |SELECT-THREE|D21             ; |SELECT-THREE|D21~corein      ; combout          ;
+; |SELECT-THREE|/GN1            ; |SELECT-THREE|/GN1~corein     ; combout          ;
+; |SELECT-THREE|CTRO1           ; |SELECT-THREE|CTRO1~corein    ; combout          ;
+; |SELECT-THREE|D31             ; |SELECT-THREE|D31~corein      ; combout          ;
+; |SELECT-THREE|D11             ; |SELECT-THREE|D11~corein      ; combout          ;
+; |SELECT-THREE|CTRO2           ; |SELECT-THREE|CTRO2~corein    ; combout          ;
++-------------------------------+-------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                           ;
++--------------------------------+--------------------------------+------------------+
+; Node Name                      ; Output Port Name               ; Output Port Type ;
++--------------------------------+--------------------------------+------------------+
+; |SELECT-THREE|74153:inst1|9~0  ; |SELECT-THREE|74153:inst1|9~0  ; combout          ;
+; |SELECT-THREE|74153:inst1|9~1  ; |SELECT-THREE|74153:inst1|9~1  ; combout          ;
+; |SELECT-THREE|74153:inst1|10~0 ; |SELECT-THREE|74153:inst1|10~0 ; combout          ;
+; |SELECT-THREE|74153:inst1|10~1 ; |SELECT-THREE|74153:inst1|10~1 ; combout          ;
+; |SELECT-THREE|74153:inst1|9~2  ; |SELECT-THREE|74153:inst1|9~2  ; combout          ;
+; |SELECT-THREE|74153:inst1|9~3  ; |SELECT-THREE|74153:inst1|9~3  ; combout          ;
+; |SELECT-THREE|OUT1             ; |SELECT-THREE|OUT1             ; padio            ;
+; |SELECT-THREE|OUT2             ; |SELECT-THREE|OUT2             ; padio            ;
+; |SELECT-THREE|D21              ; |SELECT-THREE|D21~corein       ; combout          ;
+; |SELECT-THREE|/GN1             ; |SELECT-THREE|/GN1~corein      ; combout          ;
+; |SELECT-THREE|CTRO1            ; |SELECT-THREE|CTRO1~corein     ; combout          ;
+; |SELECT-THREE|D31              ; |SELECT-THREE|D31~corein       ; combout          ;
+; |SELECT-THREE|D11              ; |SELECT-THREE|D11~corein       ; combout          ;
+; |SELECT-THREE|CTRO2            ; |SELECT-THREE|CTRO2~corein     ; combout          ;
+; |SELECT-THREE|D22              ; |SELECT-THREE|D22~corein       ; combout          ;
+; |SELECT-THREE|D32              ; |SELECT-THREE|D32~corein       ; combout          ;
+; |SELECT-THREE|D12              ; |SELECT-THREE|D12~corein       ; combout          ;
++--------------------------------+--------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Mon Jun 19 15:42:57 2017
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off SELECT-THREE -c SELECT-THREE
+Info: Using vector source file "C:/Documents and Settings/Administrator/×ÀÃæ/ComputerFinal/SELECT-THREE/SELECT-THREE.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      67.92 %
+Info: Number of transitions in simulation is 1179
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 122 megabytes
+    Info: Processing ended: Mon Jun 19 15:42:58 2017
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

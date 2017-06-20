@@ -1,0 +1,98 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 132 02/25/2009 SJ Full Version
+# Date created = 09:16:05  June 20, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		main-project_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C8T144C8
+set_global_assignment -name TOP_LEVEL_ENTITY "main-project"
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:16:05  JUNE 20, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.0
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name DEVICE_FILTER_PACKAGE TQFP
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 144
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name MIF_FILE ../xram/mram/mram.mif
+set_global_assignment -name VHDL_FILE ../xram/mram/nram.vhd
+set_global_assignment -name BDF_FILE "../COUNTER-PLUS/COUNTER-PLUS.bdf"
+set_global_assignment -name BSF_FILE "../COUNTER-PLUS/COUNTER-PLUS.bsf"
+set_global_assignment -name BDF_FILE ../xram/mram/A_Reg.bdf
+set_global_assignment -name BSF_FILE ../xram/mram/A_Reg.bsf
+set_global_assignment -name BDF_FILE ../MBR2/MBR2.bdf
+set_global_assignment -name BSF_FILE ../MBR2/MBR2.bsf
+set_global_assignment -name VHDL_FILE ../xram/dram.vhd
+set_global_assignment -name BDF_FILE ../xram/XRAM.bdf
+set_global_assignment -name BSF_FILE ../xram/xram.bsf
+set_global_assignment -name BSF_FILE "../T-COUNTER/T-COUNTER.bsf"
+set_global_assignment -name BDF_FILE "../T-COUNTER/T-COUNTER.bdf"
+set_global_assignment -name BDF_FILE "../SELECT-TWO/SELECT-TWO.bdf"
+set_global_assignment -name BSF_FILE "../SELECT-TWO/SELECT-TWO.bsf"
+set_global_assignment -name BSF_FILE "../SELECT-THREE/SELECT-THREE.bsf"
+set_global_assignment -name BDF_FILE "../SELECT-THREE/SELECT-THREE.bdf"
+set_global_assignment -name BSF_FILE "../SELECT-FOUR/SELECT-FOUR.bsf"
+set_global_assignment -name BDF_FILE "../SELECT-FOUR/SELECT-FOUR.bdf"
+set_global_assignment -name BSF_FILE "../SELECT-FIVE/SELECT-FIVE.bsf"
+set_global_assignment -name BDF_FILE "../SELECT-FIVE/SELECT-FIVE.bdf"
+set_global_assignment -name BDF_FILE "../R-REGISTER/R-REGISTER.bdf"
+set_global_assignment -name BSF_FILE "../R-REGISTER/R-REGISTER.bsf"
+set_global_assignment -name BSF_FILE ../PC/PC.bsf
+set_global_assignment -name BDF_FILE ../PC/PC.bdf
+set_global_assignment -name BSF_FILE ../OR8/OR08.bsf
+set_global_assignment -name BDF_FILE ../OR8/OR08.bdf
+set_global_assignment -name BDF_FILE ../NOT08/NOT08.bdf
+set_global_assignment -name BSF_FILE ../NOT08/NOT08.bsf
+set_global_assignment -name BSF_FILE ../logicProcess/logicProcess.bsf
+set_global_assignment -name BDF_FILE ../logicProcess/logicProcess.bdf
+set_global_assignment -name BSF_FILE ../logicPr2/logicPr2.bsf
+set_global_assignment -name BDF_FILE ../logicPr2/logicPr2.bdf
+set_global_assignment -name BSF_FILE ../IR/IR.bsf
+set_global_assignment -name BDF_FILE ../IR/IR.bdf
+set_global_assignment -name BSF_FILE "../B-REGISTER/B-REGISTER.bsf"
+set_global_assignment -name BDF_FILE "../B-REGISTER/B-REGISTER.bdf"
+set_global_assignment -name BSF_FILE "../A-REGISTER/A-REGISTER.bsf"
+set_global_assignment -name BDF_FILE "../A-REGISTER/A-REGISTER.bdf"
+set_global_assignment -name BSF_FILE ../AND08/AND08.bsf
+set_global_assignment -name BDF_FILE ../AND08/AND08.bdf
+set_global_assignment -name BDF_FILE "main-project.bdf"
+set_global_assignment -name VECTOR_WAVEFORM_FILE "main-project.vwf"

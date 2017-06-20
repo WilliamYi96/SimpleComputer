@@ -1,0 +1,65 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+11
+935
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+SELECT-THREE
+# storage
+db|SELECT-THREE.(0).cnf
+db|SELECT-THREE.(0).cnf
+# case_insensitive
+# source_file
+SELECT-THREE.bdf
+ba9a432c9897e6f9f1a2b9b22418eae
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+74153
+# storage
+db|SELECT-THREE.(1).cnf
+db|SELECT-THREE.(1).cnf
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74153.bdf
+36cd3b3c347cff8c6b0555687a75ad
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74153:inst1
+74153:inst2
+74153:inst3
+74153:inst4
+}
+# macro_sequence
+
+# end
+# complete
+
