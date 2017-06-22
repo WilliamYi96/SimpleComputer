@@ -53,13 +53,14 @@ This is the design and implementation of a simple computer by using quartus II 9
 0000 1110 | 0000 0101 |  oprand -- 0000 1001|
 0000 1111 | 0000 0101 |  logic process AorB, and then put into A|
 
-Expected Results:
-a). 00010101       
-b). 00010001       
-c). 00111111                 
-d). 00101010                     
-e). 00001010                
-f). 00000010                
-g). 00000111                
+### Expected Results:
+    
+    a). 00010101        
+    b). 00010001       
+    c). 00111111                 
+    d). 00101010                     
+    e). 00001010                
+    f). 00000010                
+    g). 00000111                
 
 [More information and details can be seen at our report](./中级计算机的设计与实现.pdf)
