@@ -21,7 +21,7 @@ This is the design and implementation of a simple computer by using quartus II 9
 
 ## Instructions
 |Opcode|Mnemonic|QI|Function|
-|---|---|---|
+|---|---|---|---|
 |0000 0000| LDA ADDR|q1|Put the content of address ADDR into A|
 |0000 0001| STA ADDR|q2|Put A into the content of address ADDR|
 |0000 0010| ADD A, B|q3|Add A and B, and then put into A|
@@ -34,6 +34,7 @@ This is the design and implementation of a simple computer by using quartus II 9
 |0000 1001| LDC B, OPRD|Put the oprands into B|
 
 # Test Repo
+|Address|Content|Description||
 0000 0000 | 0000 0110 | Put the content of R into A|
 0000 0001 | 0000 1001 |  Put the oprands of the following address into B|
 0000 0010 | 0000 1110 |  oprands -- 0000 1110|
