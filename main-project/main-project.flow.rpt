@@ -1,5 +1,5 @@
 Flow report for main-project
-Tue Jun 20 16:45:07 2017
+Wed Jun 21 21:47:37 2017
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
 
 
@@ -38,21 +38,21 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +------------------------------------+------------------------------------------+
-; Flow Status                        ; Successful - Tue Jun 20 16:45:07 2017    ;
+; Flow Status                        ; Successful - Wed Jun 21 21:47:37 2017    ;
 ; Quartus II Version                 ; 9.0 Build 132 02/25/2009 SJ Full Version ;
 ; Revision Name                      ; main-project                             ;
 ; Top-level Entity Name              ; main-project                             ;
 ; Family                             ; Cyclone II                               ;
 ; Device                             ; EP2C8T144C8                              ;
 ; Timing Models                      ; Final                                    ;
-; Met timing requirements            ; No                                       ;
-; Total logic elements               ; 64 / 8,256 ( < 1 % )                     ;
-;     Total combinational functions  ; 56 / 8,256 ( < 1 % )                     ;
-;     Dedicated logic registers      ; 33 / 8,256 ( < 1 % )                     ;
-; Total registers                    ; 33                                       ;
+; Met timing requirements            ; Yes                                      ;
+; Total logic elements               ; 18 / 8,256 ( < 1 % )                     ;
+;     Total combinational functions  ; 18 / 8,256 ( < 1 % )                     ;
+;     Dedicated logic registers      ; 12 / 8,256 ( < 1 % )                     ;
+; Total registers                    ; 12                                       ;
 ; Total pins                         ; 22 / 85 ( 26 % )                         ;
 ; Total virtual pins                 ; 0                                        ;
-; Total memory bits                  ; 3,072 / 165,888 ( 2 % )                  ;
+; Total memory bits                  ; 2,048 / 165,888 ( 1 % )                  ;
 ; Embedded Multiplier 9-bit elements ; 0 / 36 ( 0 % )                           ;
 ; Total PLLs                         ; 0 / 2 ( 0 % )                            ;
 +------------------------------------+------------------------------------------+
@@ -63,24 +63,25 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/20/2017 16:44:29 ;
+; Start date & time ; 06/21/2017 21:46:52 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; main-project        ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                 ;
-+------------------------------------+------------------------------+---------------+-------------+----------------+
-; Assignment Name                    ; Value                        ; Default Value ; Entity Name ; Section Id     ;
-+------------------------------------+------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 120892751593.149794826904260 ; --            ; --          ; --             ;
-; MAX_CORE_JUNCTION_TEMP             ; 85                           ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP             ; 0                            ; --            ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                     ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                       ; --            ; --          ; Top            ;
-; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                          ; --            ; --          ; eda_blast_fpga ;
-+------------------------------------+------------------------------+---------------+-------------+----------------+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                    ;
++------------------------------------+-------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                                           ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+-------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 6112296517.149805281002408                      ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                              ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                               ; --            ; --          ; --             ;
+; MISC_FILE                          ; G:/SimpleComputer/main-project/main-project.dpf ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                                        ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                          ; --            ; --          ; Top            ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                             ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+-------------------------------------------------+---------------+-------------+----------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------+
@@ -88,11 +89,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:18     ; 1.0                     ; 201 MB              ; 00:00:05                           ;
-; Fitter                  ; 00:00:07     ; 1.3                     ; 193 MB              ; 00:00:04                           ;
-; Assembler               ; 00:00:05     ; 1.0                     ; 165 MB              ; 00:00:04                           ;
-; Classic Timing Analyzer ; 00:00:03     ; 1.0                     ; 123 MB              ; 00:00:01                           ;
-; Total                   ; 00:00:33     ; --                      ; --                  ; 00:00:14                           ;
+; Analysis & Synthesis    ; 00:00:11     ; 1.0                     ; 201 MB              ; 00:00:04                           ;
+; Fitter                  ; 00:00:13     ; 1.0                     ; 193 MB              ; 00:00:04                           ;
+; Assembler               ; 00:00:07     ; 1.0                     ; 164 MB              ; 00:00:04                           ;
+; Classic Timing Analyzer ; 00:00:02     ; 1.0                     ; 122 MB              ; 00:00:01                           ;
+; Total                   ; 00:00:33     ; --                      ; --                  ; 00:00:13                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

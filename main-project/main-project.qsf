@@ -96,3 +96,14 @@ set_global_assignment -name BSF_FILE ../AND08/AND08.bsf
 set_global_assignment -name BDF_FILE ../AND08/AND08.bdf
 set_global_assignment -name BDF_FILE "main-project.bdf"
 set_global_assignment -name VECTOR_WAVEFORM_FILE "main-project.vwf"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_43 -to A1
+set_location_assignment PIN_44 -to A2
+set_location_assignment PIN_41 -to A3
+set_location_assignment PIN_42 -to A4
+set_location_assignment PIN_32 -to A5
+set_location_assignment PIN_40 -to A6
+set_location_assignment PIN_30 -to A7
+set_location_assignment PIN_31 -to A8
+set_location_assignment PIN_75 -to CLK
+set_global_assignment -name MISC_FILE "G:/SimpleComputer/main-project/main-project.dpf"

@@ -1,5 +1,5 @@
 Assembler report for main-project
-Tue Jun 20 16:45:02 2017
+Wed Jun 21 21:47:33 2017
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
 
 
@@ -10,8 +10,8 @@ Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: G:/ComputerFinal/main-project/main-project.sof
-  6. Assembler Device Options: G:/ComputerFinal/main-project/main-project.pof
+  5. Assembler Device Options: G:/SimpleComputer/main-project/main-project.sof
+  6. Assembler Device Options: G:/SimpleComputer/main-project/main-project.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Jun 20 16:45:02 2017 ;
+; Assembler Status      ; Successful - Wed Jun 21 21:47:33 2017 ;
 ; Revision Name         ; main-project                          ;
 ; Top-level Entity Name ; main-project                          ;
 ; Family                ; Cyclone II                            ;
@@ -76,37 +76,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+------------------------------------------------+
-; Assembler Generated Files                      ;
-+------------------------------------------------+
-; File Name                                      ;
-+------------------------------------------------+
-; G:/ComputerFinal/main-project/main-project.sof ;
-; G:/ComputerFinal/main-project/main-project.pof ;
-+------------------------------------------------+
++-------------------------------------------------+
+; Assembler Generated Files                       ;
++-------------------------------------------------+
+; File Name                                       ;
++-------------------------------------------------+
+; G:/SimpleComputer/main-project/main-project.sof ;
+; G:/SimpleComputer/main-project/main-project.pof ;
++-------------------------------------------------+
 
 
-+--------------------------------------------------------------------------+
-; Assembler Device Options: G:/ComputerFinal/main-project/main-project.sof ;
-+----------------+---------------------------------------------------------+
-; Option         ; Setting                                                 ;
-+----------------+---------------------------------------------------------+
-; Device         ; EP2C8T144C8                                             ;
-; JTAG usercode  ; 0xFFFFFFFF                                              ;
-; Checksum       ; 0x000D29F5                                              ;
-+----------------+---------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Assembler Device Options: G:/SimpleComputer/main-project/main-project.sof ;
++----------------+----------------------------------------------------------+
+; Option         ; Setting                                                  ;
++----------------+----------------------------------------------------------+
+; Device         ; EP2C8T144C8                                              ;
+; JTAG usercode  ; 0xFFFFFFFF                                               ;
+; Checksum       ; 0x000C97C6                                               ;
++----------------+----------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------+
-; Assembler Device Options: G:/ComputerFinal/main-project/main-project.pof ;
-+--------------------+-----------------------------------------------------+
-; Option             ; Setting                                             ;
-+--------------------+-----------------------------------------------------+
-; Device             ; EPCS4                                               ;
-; JTAG usercode      ; 0x00000000                                          ;
-; Checksum           ; 0x06EF83AE                                          ;
-; Compression Ratio  ; 3                                                   ;
-+--------------------+-----------------------------------------------------+
++---------------------------------------------------------------------------+
+; Assembler Device Options: G:/SimpleComputer/main-project/main-project.pof ;
++--------------------+------------------------------------------------------+
+; Option             ; Setting                                              ;
++--------------------+------------------------------------------------------+
+; Device             ; EPCS4                                                ;
+; JTAG usercode      ; 0x00000000                                           ;
+; Checksum           ; 0x06F0EEB8                                           ;
+; Compression Ratio  ; 3                                                    ;
++--------------------+------------------------------------------------------+
 
 
 +--------------------+
@@ -115,14 +115,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
-    Info: Processing started: Tue Jun 20 16:44:57 2017
+    Info: Processing started: Wed Jun 21 21:47:26 2017
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off main-project -c main-project
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 165 megabytes
-    Info: Processing ended: Tue Jun 20 16:45:03 2017
-    Info: Elapsed time: 00:00:06
+    Info: Peak virtual memory: 164 megabytes
+    Info: Processing ended: Wed Jun 21 21:47:34 2017
+    Info: Elapsed time: 00:00:08
     Info: Total CPU time (on all processors): 00:00:04
 
 

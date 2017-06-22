@@ -1,5 +1,5 @@
 Simulator report for main-project
-Tue Jun 20 16:45:21 2017
+Wed Jun 21 21:51:27 2017
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
 
 
@@ -11,13 +11,12 @@ Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
   3. Simulator Settings
   4. Simulation Waveforms
   5. |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ALTSYNCRAM
-  6. |main-project|XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ALTSYNCRAM
-  7. Coverage Summary
-  8. Complete 1/0-Value Coverage
-  9. Missing 1-Value Coverage
- 10. Missing 0-Value Coverage
- 11. Simulator INI Usage
- 12. Simulator Messages
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
 
 
 
@@ -47,9 +46,9 @@ applicable agreement for further details.
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 us       ;
-; Simulation Netlist Size     ; 121 nodes    ;
-; Simulation Coverage         ;      61.83 % ;
-; Total Number of Transitions ; 3585         ;
+; Simulation Netlist Size     ; 53 nodes     ;
+; Simulation Coverage         ;      81.67 % ;
+; Total Number of Transitions ; 2364         ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Cyclone II   ;
 ; Device                      ; EP2C8T144C8  ;
@@ -98,25 +97,18 @@ Memory report data cannot be output to ASCII.
 Please use Quartus II to view the memory report data.
 
 
-+--------------------------------------------------------------------------------------------------------------+
-; |main-project|XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ALTSYNCRAM ;
-+--------------------------------------------------------------------------------------------------------------+
-Memory report data cannot be output to ASCII.
-Please use Quartus II to view the memory report data.
-
-
 +--------------------------------------------------------------------+
 ; Coverage Summary                                                   ;
 +-----------------------------------------------------+--------------+
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
-; Total coverage as a percentage                      ;      61.83 % ;
-; Total nodes checked                                 ; 121          ;
-; Total output ports checked                          ; 131          ;
-; Total output ports with complete 1/0-value coverage ; 81           ;
-; Total output ports with no 1/0-value coverage       ; 43           ;
-; Total output ports with no 1-value coverage         ; 43           ;
-; Total output ports with no 0-value coverage         ; 50           ;
+; Total coverage as a percentage                      ;      81.67 % ;
+; Total nodes checked                                 ; 53           ;
+; Total output ports checked                          ; 60           ;
+; Total output ports with complete 1/0-value coverage ; 49           ;
+; Total output ports with no 1/0-value coverage       ; 9            ;
+; Total output ports with no 1-value coverage         ; 9            ;
+; Total output ports with no 0-value coverage         ; 11           ;
 +-----------------------------------------------------+--------------+
 
 
@@ -132,36 +124,18 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0 ; |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[3] ; portadataout3    ;
 ; |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0 ; |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[4] ; portadataout4    ;
 ; |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0 ; |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[5] ; portadataout5    ;
-; |main-project|XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0   ; |main-project|XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|q_a[1]   ; portadataout1    ;
-; |main-project|XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0   ; |main-project|XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|q_a[2]   ; portadataout2    ;
-; |main-project|XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0   ; |main-project|XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|q_a[3]   ; portadataout3    ;
 ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|34                                                          ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|34                                                    ; regout           ;
 ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|111                                                         ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|111                                                   ; regout           ;
 ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|122                                                         ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|122                                                   ; regout           ;
 ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|134                                                         ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|134                                                   ; regout           ;
-; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|34                                                       ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|34                                                 ; regout           ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|111                                                      ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|111                                                ; regout           ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|122                                                      ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|122                                                ; regout           ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|134                                                      ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|134                                                ; regout           ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|34                                                      ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|34                                                ; regout           ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111                                                     ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111                                               ; regout           ;
-; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst8|15~0                                                 ; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst8|15~0                                           ; combout          ;
-; |main-project|74377:MBR|30                                                                                       ; |main-project|74377:MBR|30                                                                                 ; regout           ;
-; |main-project|logicProcess:inst17|inst25~1                                                                       ; |main-project|logicProcess:inst17|inst25~1                                                                 ; combout          ;
-; |main-project|74377:MBR|29                                                                                       ; |main-project|74377:MBR|29                                                                                 ; regout           ;
-; |main-project|logicProcess:inst17|IR:inst31|74138:inst3|15~0                                                     ; |main-project|logicProcess:inst17|IR:inst31|74138:inst3|15~0                                               ; combout          ;
-; |main-project|74377:MBR|31                                                                                       ; |main-project|74377:MBR|31                                                                                 ; regout           ;
-; |main-project|logicProcess:inst17|inst25~2                                                                       ; |main-project|logicProcess:inst17|inst25~2                                                                 ; combout          ;
-; |main-project|logicProcess:inst17|inst25~3                                                                       ; |main-project|logicProcess:inst17|inst25~3                                                                 ; combout          ;
-; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|106~0                                                       ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|106~0                                                 ; combout          ;
-; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst10|18~0                                                ; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst10|18~0                                          ; combout          ;
-; |main-project|logicProcess:inst17|inst25~5                                                                       ; |main-project|logicProcess:inst17|inst25~5                                                                 ; combout          ;
-; |main-project|logicProcess:inst17|inst25~6                                                                       ; |main-project|logicProcess:inst17|inst25~6                                                                 ; combout          ;
-; |main-project|logicProcess:inst17|IR:inst31|74138:inst|18~0                                                      ; |main-project|logicProcess:inst17|IR:inst31|74138:inst|18~0                                                ; combout          ;
-; |main-project|logicProcess:inst17|IR:inst31|74138:inst|18~1                                                      ; |main-project|logicProcess:inst17|IR:inst31|74138:inst|18~1                                                ; combout          ;
-; |main-project|logicProcess:inst17|inst25~7                                                                       ; |main-project|logicProcess:inst17|inst25~7                                                                 ; combout          ;
 ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|115                                                         ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|115                                                   ; combout          ;
-; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|117                                                         ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|117                                                   ; combout          ;
+; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|106~0                                                       ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|106~0                                                 ; combout          ;
+; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|126                                                         ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|126                                                   ; combout          ;
 ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|137                                                         ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|137                                                   ; combout          ;
 ; |main-project|T-COUNTER:inst16|74163:inst1|f74163:sub|68                                                         ; |main-project|T-COUNTER:inst16|74163:inst1|f74163:sub|68                                                   ; combout          ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|111~0                                                    ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|111~0                                              ; combout          ;
@@ -169,25 +143,13 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|134~0                                                    ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|134~0                                              ; combout          ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|106                                                      ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|106                                                ; combout          ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|34~0                                                    ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|34~0                                              ; combout          ;
-; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|73                                                      ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|73                                                ; combout          ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111~0                                                   ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111~0                                             ; combout          ;
+; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111~1                                                   ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111~1                                             ; combout          ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122~0                                                   ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122~0                                             ; combout          ;
+; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122~1                                                   ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122~1                                             ; combout          ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134~0                                                   ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134~0                                             ; combout          ;
-; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst10|21~0                                                ; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst10|21~0                                          ; combout          ;
-; |main-project|74377:MBR|30~0                                                                                     ; |main-project|74377:MBR|30~0                                                                               ; combout          ;
-; |main-project|74377:MBR|29~0                                                                                     ; |main-project|74377:MBR|29~0                                                                               ; combout          ;
-; |main-project|74377:MBR|31~0                                                                                     ; |main-project|74377:MBR|31~0                                                                               ; combout          ;
-; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst8|18~0                                                 ; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst8|18~0                                           ; combout          ;
-; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst10|21~1                                                ; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst10|21~1                                          ; combout          ;
-; |main-project|logicProcess:inst17|inst27~0                                                                       ; |main-project|logicProcess:inst17|inst27~0                                                                 ; combout          ;
-; |main-project|logicProcess:inst17|inst10                                                                         ; |main-project|logicProcess:inst17|inst10                                                                   ; combout          ;
-; |main-project|PC:inst4|D0                                                                                        ; |main-project|PC:inst4|D0                                                                                  ; regout           ;
-; |main-project|inst14~2                                                                                           ; |main-project|inst14~2                                                                                     ; combout          ;
-; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|126                                                         ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|126                                                   ; combout          ;
+; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134~1                                                   ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134~1                                             ; combout          ;
 ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|34~0                                                        ; |main-project|T-COUNTER:inst16|74163:inst|f74163:sub|34~0                                                  ; combout          ;
-; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|34~0                                                     ; |main-project|COUNTER-PLUS:inst32|74163:inst|f74163:sub|34~0                                               ; combout          ;
-; |main-project|PC:inst4|D0~0                                                                                      ; |main-project|PC:inst4|D0~0                                                                                ; combout          ;
-; |main-project|PC:inst4|D1~0                                                                                      ; |main-project|PC:inst4|D1~0                                                                                ; combout          ;
 ; |main-project|COUNT1                                                                                             ; |main-project|COUNT1                                                                                       ; padio            ;
 ; |main-project|COUNT2                                                                                             ; |main-project|COUNT2                                                                                       ; padio            ;
 ; |main-project|COUNT3                                                                                             ; |main-project|COUNT3                                                                                       ; padio            ;
@@ -205,8 +167,6 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |main-project|OUT5                                                                                               ; |main-project|OUT5                                                                                         ; padio            ;
 ; |main-project|OUT6                                                                                               ; |main-project|OUT6                                                                                         ; padio            ;
 ; |main-project|CLK                                                                                                ; |main-project|CLK~corein                                                                                   ; combout          ;
-; |main-project|CLK~clkctrl                                                                                        ; |main-project|CLK~clkctrl                                                                                  ; outclk           ;
-; |main-project|74377:MAR|29~feeder                                                                                ; |main-project|74377:MAR|29~feeder                                                                          ; combout          ;
 +------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+------------------+
 
 
@@ -220,45 +180,11 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0 ; |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[7] ; portadataout7    ;
 ; |main-project|T-COUNTER:inst16|74163:inst1|f74163:sub|34                                                         ; |main-project|T-COUNTER:inst16|74163:inst1|f74163:sub|34                                                   ; regout           ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134                                                     ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134                                               ; regout           ;
-; |main-project|logicProcess:inst17|inst25~0                                                                       ; |main-project|logicProcess:inst17|inst25~0                                                                 ; combout          ;
-; |main-project|logicProcess:inst17|inst25~4                                                                       ; |main-project|logicProcess:inst17|inst25~4                                                                 ; combout          ;
-; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst11|18~0                                                ; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst11|18~0                                          ; combout          ;
-; |main-project|logicProcess:inst17|IR:inst31|74138:inst3|15~1                                                     ; |main-project|logicProcess:inst17|IR:inst31|74138:inst3|15~1                                               ; combout          ;
-; |main-project|logicProcess:inst17|inst12~0                                                                       ; |main-project|logicProcess:inst17|inst12~0                                                                 ; combout          ;
-; |main-project|inst12~0                                                                                           ; |main-project|inst12~0                                                                                     ; combout          ;
-; |main-project|74377:MAR|29                                                                                       ; |main-project|74377:MAR|29                                                                                 ; regout           ;
-; |main-project|74377:MAR|31                                                                                       ; |main-project|74377:MAR|31                                                                                 ; regout           ;
-; |main-project|74377:MAR|30                                                                                       ; |main-project|74377:MAR|30                                                                                 ; regout           ;
-; |main-project|74377:MAR|35                                                                                       ; |main-project|74377:MAR|35                                                                                 ; regout           ;
-; |main-project|74377:MAR|34                                                                                       ; |main-project|74377:MAR|34                                                                                 ; regout           ;
-; |main-project|74377:MAR|33                                                                                       ; |main-project|74377:MAR|33                                                                                 ; regout           ;
-; |main-project|74377:MAR|32                                                                                       ; |main-project|74377:MAR|32                                                                                 ; regout           ;
-; |main-project|logicProcess:inst17|inst10~0                                                                       ; |main-project|logicProcess:inst17|inst10~0                                                                 ; combout          ;
-; |main-project|inst14~0                                                                                           ; |main-project|inst14~0                                                                                     ; combout          ;
-; |main-project|inst14~1                                                                                           ; |main-project|inst14~1                                                                                     ; combout          ;
-; |main-project|PC:inst4|D2                                                                                        ; |main-project|PC:inst4|D2                                                                                  ; regout           ;
-; |main-project|PC:inst4|D3                                                                                        ; |main-project|PC:inst4|D3                                                                                  ; regout           ;
-; |main-project|PC:inst4|D4                                                                                        ; |main-project|PC:inst4|D4                                                                                  ; regout           ;
-; |main-project|PC:inst4|D5                                                                                        ; |main-project|PC:inst4|D5                                                                                  ; regout           ;
-; |main-project|PC:inst4|D6                                                                                        ; |main-project|PC:inst4|D6                                                                                  ; regout           ;
-; |main-project|PC:inst4|D7                                                                                        ; |main-project|PC:inst4|D7                                                                                  ; regout           ;
-; |main-project|PC:inst4|D2~0                                                                                      ; |main-project|PC:inst4|D2~0                                                                                ; combout          ;
-; |main-project|PC:inst4|D3~0                                                                                      ; |main-project|PC:inst4|D3~0                                                                                ; combout          ;
-; |main-project|PC:inst4|D4~0                                                                                      ; |main-project|PC:inst4|D4~0                                                                                ; combout          ;
-; |main-project|PC:inst4|D5~0                                                                                      ; |main-project|PC:inst4|D5~0                                                                                ; combout          ;
-; |main-project|PC:inst4|D6~0                                                                                      ; |main-project|PC:inst4|D6~0                                                                                ; combout          ;
-; |main-project|PC:inst4|D7~0                                                                                      ; |main-project|PC:inst4|D7~0                                                                                ; combout          ;
 ; |main-project|~GND                                                                                               ; |main-project|~GND                                                                                         ; combout          ;
 ; |main-project|COUNT5                                                                                             ; |main-project|COUNT5                                                                                       ; padio            ;
 ; |main-project|A1                                                                                                 ; |main-project|A1                                                                                           ; padio            ;
 ; |main-project|A2                                                                                                 ; |main-project|A2                                                                                           ; padio            ;
 ; |main-project|OUT8                                                                                               ; |main-project|OUT8                                                                                         ; padio            ;
-; |main-project|74377:MAR|31~feeder                                                                                ; |main-project|74377:MAR|31~feeder                                                                          ; combout          ;
-; |main-project|74377:MAR|30~feeder                                                                                ; |main-project|74377:MAR|30~feeder                                                                          ; combout          ;
-; |main-project|74377:MAR|35~feeder                                                                                ; |main-project|74377:MAR|35~feeder                                                                          ; combout          ;
-; |main-project|74377:MAR|34~feeder                                                                                ; |main-project|74377:MAR|34~feeder                                                                          ; combout          ;
-; |main-project|74377:MAR|33~feeder                                                                                ; |main-project|74377:MAR|33~feeder                                                                          ; combout          ;
-; |main-project|74377:MAR|32~feeder                                                                                ; |main-project|74377:MAR|32~feeder                                                                          ; combout          ;
 +------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+------------------+
 
 
@@ -270,54 +196,15 @@ The following table displays output ports that do not toggle to 0 during simulat
 +------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+------------------+
 ; |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0 ; |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[6] ; portadataout6    ;
 ; |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0 ; |main-project|A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[7] ; portadataout7    ;
-; |main-project|XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0   ; |main-project|XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|q_a[0]   ; portadataout0    ;
 ; |main-project|T-COUNTER:inst16|74163:inst1|f74163:sub|34                                                         ; |main-project|T-COUNTER:inst16|74163:inst1|f74163:sub|34                                                   ; regout           ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122                                                     ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122                                               ; regout           ;
 ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134                                                     ; |main-project|COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134                                               ; regout           ;
-; |main-project|logicProcess:inst17|inst25~0                                                                       ; |main-project|logicProcess:inst17|inst25~0                                                                 ; combout          ;
-; |main-project|74377:MBR|28                                                                                       ; |main-project|74377:MBR|28                                                                                 ; regout           ;
-; |main-project|logicProcess:inst17|inst25~4                                                                       ; |main-project|logicProcess:inst17|inst25~4                                                                 ; combout          ;
-; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst11|18~0                                                ; |main-project|logicProcess:inst17|logicPr2:inst|74138:inst11|18~0                                          ; combout          ;
-; |main-project|logicProcess:inst17|IR:inst31|74138:inst3|15~1                                                     ; |main-project|logicProcess:inst17|IR:inst31|74138:inst3|15~1                                               ; combout          ;
-; |main-project|logicProcess:inst17|inst12~0                                                                       ; |main-project|logicProcess:inst17|inst12~0                                                                 ; combout          ;
-; |main-project|inst12~0                                                                                           ; |main-project|inst12~0                                                                                     ; combout          ;
-; |main-project|74377:MBR|28~0                                                                                     ; |main-project|74377:MBR|28~0                                                                               ; combout          ;
-; |main-project|74377:MAR|28                                                                                       ; |main-project|74377:MAR|28                                                                                 ; regout           ;
-; |main-project|74377:MAR|29                                                                                       ; |main-project|74377:MAR|29                                                                                 ; regout           ;
-; |main-project|74377:MAR|31                                                                                       ; |main-project|74377:MAR|31                                                                                 ; regout           ;
-; |main-project|74377:MAR|30                                                                                       ; |main-project|74377:MAR|30                                                                                 ; regout           ;
-; |main-project|74377:MAR|35                                                                                       ; |main-project|74377:MAR|35                                                                                 ; regout           ;
-; |main-project|74377:MAR|34                                                                                       ; |main-project|74377:MAR|34                                                                                 ; regout           ;
-; |main-project|74377:MAR|33                                                                                       ; |main-project|74377:MAR|33                                                                                 ; regout           ;
-; |main-project|74377:MAR|32                                                                                       ; |main-project|74377:MAR|32                                                                                 ; regout           ;
-; |main-project|logicProcess:inst17|inst10~0                                                                       ; |main-project|logicProcess:inst17|inst10~0                                                                 ; combout          ;
-; |main-project|inst14~0                                                                                           ; |main-project|inst14~0                                                                                     ; combout          ;
-; |main-project|inst14~1                                                                                           ; |main-project|inst14~1                                                                                     ; combout          ;
-; |main-project|PC:inst4|D1                                                                                        ; |main-project|PC:inst4|D1                                                                                  ; regout           ;
-; |main-project|PC:inst4|D2                                                                                        ; |main-project|PC:inst4|D2                                                                                  ; regout           ;
-; |main-project|PC:inst4|D3                                                                                        ; |main-project|PC:inst4|D3                                                                                  ; regout           ;
-; |main-project|PC:inst4|D4                                                                                        ; |main-project|PC:inst4|D4                                                                                  ; regout           ;
-; |main-project|PC:inst4|D5                                                                                        ; |main-project|PC:inst4|D5                                                                                  ; regout           ;
-; |main-project|PC:inst4|D6                                                                                        ; |main-project|PC:inst4|D6                                                                                  ; regout           ;
-; |main-project|PC:inst4|D7                                                                                        ; |main-project|PC:inst4|D7                                                                                  ; regout           ;
-; |main-project|PC:inst4|D2~0                                                                                      ; |main-project|PC:inst4|D2~0                                                                                ; combout          ;
-; |main-project|PC:inst4|D3~0                                                                                      ; |main-project|PC:inst4|D3~0                                                                                ; combout          ;
-; |main-project|PC:inst4|D4~0                                                                                      ; |main-project|PC:inst4|D4~0                                                                                ; combout          ;
-; |main-project|PC:inst4|D5~0                                                                                      ; |main-project|PC:inst4|D5~0                                                                                ; combout          ;
-; |main-project|PC:inst4|D6~0                                                                                      ; |main-project|PC:inst4|D6~0                                                                                ; combout          ;
-; |main-project|PC:inst4|D7~0                                                                                      ; |main-project|PC:inst4|D7~0                                                                                ; combout          ;
 ; |main-project|~GND                                                                                               ; |main-project|~GND                                                                                         ; combout          ;
 ; |main-project|COUNT5                                                                                             ; |main-project|COUNT5                                                                                       ; padio            ;
 ; |main-project|A1                                                                                                 ; |main-project|A1                                                                                           ; padio            ;
 ; |main-project|A2                                                                                                 ; |main-project|A2                                                                                           ; padio            ;
 ; |main-project|OUT7                                                                                               ; |main-project|OUT7                                                                                         ; padio            ;
 ; |main-project|OUT8                                                                                               ; |main-project|OUT8                                                                                         ; padio            ;
-; |main-project|74377:MAR|31~feeder                                                                                ; |main-project|74377:MAR|31~feeder                                                                          ; combout          ;
-; |main-project|74377:MAR|30~feeder                                                                                ; |main-project|74377:MAR|30~feeder                                                                          ; combout          ;
-; |main-project|74377:MAR|35~feeder                                                                                ; |main-project|74377:MAR|35~feeder                                                                          ; combout          ;
-; |main-project|74377:MAR|34~feeder                                                                                ; |main-project|74377:MAR|34~feeder                                                                          ; combout          ;
-; |main-project|74377:MAR|33~feeder                                                                                ; |main-project|74377:MAR|33~feeder                                                                          ; combout          ;
-; |main-project|74377:MAR|32~feeder                                                                                ; |main-project|74377:MAR|32~feeder                                                                          ; combout          ;
 +------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+------------------+
 
 
@@ -334,38 +221,18 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
-    Info: Processing started: Tue Jun 20 16:45:19 2017
+    Info: Processing started: Wed Jun 21 21:51:25 2017
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off main-project -c main-project
-Info: Using vector source file "G:/ComputerFinal/main-project/main-project.vwf"
+Info: Using vector source file "G:/SimpleComputer/main-project/main-project.vwf"
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
-Warning: Found clock high time violation at 99.9 ns on register "|main-project|PC:inst4|D0"
-Warning: Found clock high time violation at 101.26 ns on register "|main-project|PC:inst4|D1"
-Warning: Found clock high time violation at 195.9 ns on register "|main-project|PC:inst4|D0"
-Warning: Found clock high time violation at 197.26 ns on register "|main-project|PC:inst4|D1"
-Warning: Found clock high time violation at 291.9 ns on register "|main-project|PC:inst4|D0"
-Warning: Found clock high time violation at 293.26 ns on register "|main-project|PC:inst4|D1"
-Warning: Found clock high time violation at 387.9 ns on register "|main-project|PC:inst4|D0"
-Warning: Found clock high time violation at 389.26 ns on register "|main-project|PC:inst4|D1"
-Warning: Found clock high time violation at 483.9 ns on register "|main-project|PC:inst4|D0"
-Warning: Found clock high time violation at 485.26 ns on register "|main-project|PC:inst4|D1"
-Warning: Found clock high time violation at 579.9 ns on register "|main-project|PC:inst4|D0"
-Warning: Found clock high time violation at 581.26 ns on register "|main-project|PC:inst4|D1"
-Warning: Found clock high time violation at 675.9 ns on register "|main-project|PC:inst4|D0"
-Warning: Found clock high time violation at 677.26 ns on register "|main-project|PC:inst4|D1"
-Warning: Found clock high time violation at 771.9 ns on register "|main-project|PC:inst4|D0"
-Warning: Found clock high time violation at 773.26 ns on register "|main-project|PC:inst4|D1"
-Warning: Found clock high time violation at 867.9 ns on register "|main-project|PC:inst4|D0"
-Warning: Found clock high time violation at 869.26 ns on register "|main-project|PC:inst4|D1"
-Warning: Found clock high time violation at 963.9 ns on register "|main-project|PC:inst4|D0"
-Warning: Found clock high time violation at 965.26 ns on register "|main-project|PC:inst4|D1"
 Info: Simulation partitioned into 1 sub-simulations
-Info: Simulation coverage is      61.83 %
-Info: Number of transitions in simulation is 3585
-Info: Quartus II Simulator was successful. 0 errors, 20 warnings
-    Info: Peak virtual memory: 122 megabytes
-    Info: Processing ended: Tue Jun 20 16:45:22 2017
-    Info: Elapsed time: 00:00:03
+Info: Simulation coverage is      81.67 %
+Info: Number of transitions in simulation is 2364
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 121 megabytes
+    Info: Processing ended: Wed Jun 21 21:51:27 2017
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -54,7 +54,7 @@ Chip Device Options:
 		15: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		16: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		17: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|111	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		18: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 	OUTPUTS (Int. Connections):
 		0: [PORTADATAOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[7]	LIT INDEX 0 FANOUTS 1 REGED POS
 		1: [OBSERVABLEPORTAWEREGOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a7~porta_we_reg	LIT INDEX 0 FANOUTS 0
@@ -119,7 +119,7 @@ Chip Device Options:
 		15: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		16: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		17: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|111	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		18: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 	OUTPUTS (Int. Connections):
 		0: [PORTADATAOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[6]	LIT INDEX 0 FANOUTS 1 REGED POS
 		1: [OBSERVABLEPORTAWEREGOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a6~porta_we_reg	LIT INDEX 0 FANOUTS 0
@@ -184,7 +184,7 @@ Chip Device Options:
 		15: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		16: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		17: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|111	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		18: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 	OUTPUTS (Int. Connections):
 		0: [PORTADATAOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[5]	LIT INDEX 0 FANOUTS 1 REGED POS
 		1: [OBSERVABLEPORTAWEREGOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a5~porta_we_reg	LIT INDEX 0 FANOUTS 0
@@ -249,7 +249,7 @@ Chip Device Options:
 		15: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		16: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		17: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|111	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		18: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 	OUTPUTS (Int. Connections):
 		0: [PORTADATAOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[4]	LIT INDEX 0 FANOUTS 1 REGED POS
 		1: [OBSERVABLEPORTAWEREGOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a4~porta_we_reg	LIT INDEX 0 FANOUTS 0
@@ -314,7 +314,7 @@ Chip Device Options:
 		15: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		16: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		17: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|111	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		18: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 	OUTPUTS (Int. Connections):
 		0: [PORTADATAOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[3]	LIT INDEX 0 FANOUTS 1 REGED POS
 		1: [OBSERVABLEPORTAWEREGOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a3~porta_we_reg	LIT INDEX 0 FANOUTS 0
@@ -379,7 +379,7 @@ Chip Device Options:
 		15: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		16: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		17: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|111	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		18: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 	OUTPUTS (Int. Connections):
 		0: [PORTADATAOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[2]	LIT INDEX 0 FANOUTS 1 REGED POS
 		1: [OBSERVABLEPORTAWEREGOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a2~porta_we_reg	LIT INDEX 0 FANOUTS 0
@@ -444,7 +444,7 @@ Chip Device Options:
 		15: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		16: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		17: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|111	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		18: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 	OUTPUTS (Int. Connections):
 		0: [PORTADATAOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[1]	LIT INDEX 0 FANOUTS 1 REGED POS
 		1: [OBSERVABLEPORTAWEREGOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a1~porta_we_reg	LIT INDEX 0 FANOUTS 0
@@ -509,7 +509,7 @@ Chip Device Options:
 		15: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		16: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		17: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|111	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		18: [PORTAADDR]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 	OUTPUTS (Int. Connections):
 		0: [PORTADATAOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|q_a[0]	LIT INDEX 0 FANOUTS 1 REGED POS
 		1: [OBSERVABLEPORTAWEREGOUT]	A_Reg:inst34|nram:inst|altsyncram:altsyncram_component|altsyncram_tba1:auto_generated|ram_block1a0~porta_we_reg	LIT INDEX 0 FANOUTS 0
@@ -550,269 +550,9 @@ Chip Device Options:
 
 
 - ATOM ------------------------
-	ATOM_NAME: XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0 -- UNIQUE
-	Atom Hier Name: 
-	Atom Id: 8
-	Atom Type: cycloneii_ram_block (WYSIWYG)
-
-	INPUTS (Driven By):
-		0: [PORTAWE]	~ !(logicProcess:inst17|inst27~0)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: [CLK0]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		5: [CLK1]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		6: NO ITERM
-		7: NO ITERM
-		8: NO ITERM
-		9: NO ITERM
-		10: [PORTADATAIN]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		11: [PORTAADDR]	  74377:MAR|28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		12: [PORTAADDR]	  74377:MAR|29	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		13: [PORTAADDR]	  74377:MAR|31	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		14: [PORTAADDR]	  74377:MAR|30	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		15: [PORTAADDR]	  74377:MAR|35	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		16: [PORTAADDR]	  74377:MAR|34	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		17: [PORTAADDR]	  74377:MAR|33	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		18: [PORTAADDR]	  74377:MAR|32	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-	OUTPUTS (Int. Connections):
-		0: [PORTADATAOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|q_a[0]	LIT INDEX 0 FANOUTS 1 REGED POS
-		1: [OBSERVABLEPORTAWEREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0~porta_we_reg	LIT INDEX 0 FANOUTS 0
-		2: [OBSERVABLEPORTADATAINREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
-		3: [OBSERVABLEPORTAMEMORYREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
-		4: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0~porta_address_reg0	LIT INDEX 0 FANOUTS 0
-		5: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0~porta_address_reg1	LIT INDEX 1 FANOUTS 0
-		6: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0~porta_address_reg2	LIT INDEX 2 FANOUTS 0
-		7: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0~porta_address_reg3	LIT INDEX 3 FANOUTS 0
-		8: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0~porta_address_reg4	LIT INDEX 4 FANOUTS 0
-		9: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0~porta_address_reg5	LIT INDEX 5 FANOUTS 0
-		10: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0~porta_address_reg6	LIT INDEX 6 FANOUTS 0
-		11: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a0~porta_address_reg7	LIT INDEX 7 FANOUTS 0
-
-	PARAMETER LIST:
-		operation_mode                 = single_port
-		ram_block_type                 = auto
-		logical_ram_name               = XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ALTSYNCRAM
-		init_file                      = xram.mif
-		init_file_layout               = port_a
-		data_interleave_width_in_bits  = 1
-		data_interleave_offset_in_bits = 1
-		port_a_logical_ram_depth       = 256
-		port_a_logical_ram_width       = 8
-		port_a_data_in_clear           = none
-		port_a_address_clear           = none
-		port_a_write_enable_clear      = none
-		port_a_byte_enable_clear       = none
-		port_a_data_out_clock          = clock1
-		port_a_data_out_clear          = none
-		port_a_first_address           = 0
-		port_a_last_address            = 255
-		port_a_first_bit_number        = 0
-		port_a_data_width              = 1
-		port_a_address_width           = 8
-		DIRTY_FLAG                     = false
-		safe_write                     = err_on_2clk
-
-
-- ATOM ------------------------
-	ATOM_NAME: XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a3 -- UNIQUE
-	Atom Hier Name: 
-	Atom Id: 9
-	Atom Type: cycloneii_ram_block (WYSIWYG)
-
-	INPUTS (Driven By):
-		0: [PORTAWE]	~ !(logicProcess:inst17|inst27~0)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: [CLK0]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		5: [CLK1]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		6: NO ITERM
-		7: NO ITERM
-		8: NO ITERM
-		9: NO ITERM
-		10: [PORTADATAIN]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		11: [PORTAADDR]	  74377:MAR|28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		12: [PORTAADDR]	  74377:MAR|29	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		13: [PORTAADDR]	  74377:MAR|31	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		14: [PORTAADDR]	  74377:MAR|30	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		15: [PORTAADDR]	  74377:MAR|35	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		16: [PORTAADDR]	  74377:MAR|34	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		17: [PORTAADDR]	  74377:MAR|33	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		18: [PORTAADDR]	  74377:MAR|32	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-	OUTPUTS (Int. Connections):
-		0: [PORTADATAOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|q_a[3]	LIT INDEX 0 FANOUTS 1 REGED POS
-		1: [OBSERVABLEPORTAWEREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a3~porta_we_reg	LIT INDEX 0 FANOUTS 0
-		2: [OBSERVABLEPORTADATAINREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a3~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
-		3: [OBSERVABLEPORTAMEMORYREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a3~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
-		4: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a3~porta_address_reg0	LIT INDEX 0 FANOUTS 0
-		5: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a3~porta_address_reg1	LIT INDEX 1 FANOUTS 0
-		6: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a3~porta_address_reg2	LIT INDEX 2 FANOUTS 0
-		7: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a3~porta_address_reg3	LIT INDEX 3 FANOUTS 0
-		8: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a3~porta_address_reg4	LIT INDEX 4 FANOUTS 0
-		9: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a3~porta_address_reg5	LIT INDEX 5 FANOUTS 0
-		10: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a3~porta_address_reg6	LIT INDEX 6 FANOUTS 0
-		11: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a3~porta_address_reg7	LIT INDEX 7 FANOUTS 0
-
-	PARAMETER LIST:
-		operation_mode                 = single_port
-		ram_block_type                 = auto
-		logical_ram_name               = XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ALTSYNCRAM
-		init_file                      = xram.mif
-		init_file_layout               = port_a
-		data_interleave_width_in_bits  = 1
-		data_interleave_offset_in_bits = 1
-		port_a_logical_ram_depth       = 256
-		port_a_logical_ram_width       = 8
-		port_a_data_in_clear           = none
-		port_a_address_clear           = none
-		port_a_write_enable_clear      = none
-		port_a_byte_enable_clear       = none
-		port_a_data_out_clock          = clock1
-		port_a_data_out_clear          = none
-		port_a_first_address           = 0
-		port_a_last_address            = 255
-		port_a_first_bit_number        = 3
-		port_a_data_width              = 1
-		port_a_address_width           = 8
-		DIRTY_FLAG                     = false
-		safe_write                     = err_on_2clk
-
-
-- ATOM ------------------------
-	ATOM_NAME: XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a1 -- UNIQUE
-	Atom Hier Name: 
-	Atom Id: 10
-	Atom Type: cycloneii_ram_block (WYSIWYG)
-
-	INPUTS (Driven By):
-		0: [PORTAWE]	~ !(logicProcess:inst17|inst27~0)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: [CLK0]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		5: [CLK1]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		6: NO ITERM
-		7: NO ITERM
-		8: NO ITERM
-		9: NO ITERM
-		10: [PORTADATAIN]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		11: [PORTAADDR]	  74377:MAR|28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		12: [PORTAADDR]	  74377:MAR|29	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		13: [PORTAADDR]	  74377:MAR|31	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		14: [PORTAADDR]	  74377:MAR|30	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		15: [PORTAADDR]	  74377:MAR|35	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		16: [PORTAADDR]	  74377:MAR|34	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		17: [PORTAADDR]	  74377:MAR|33	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		18: [PORTAADDR]	  74377:MAR|32	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-	OUTPUTS (Int. Connections):
-		0: [PORTADATAOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|q_a[1]	LIT INDEX 0 FANOUTS 1 REGED POS
-		1: [OBSERVABLEPORTAWEREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a1~porta_we_reg	LIT INDEX 0 FANOUTS 0
-		2: [OBSERVABLEPORTADATAINREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a1~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
-		3: [OBSERVABLEPORTAMEMORYREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a1~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
-		4: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a1~porta_address_reg0	LIT INDEX 0 FANOUTS 0
-		5: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a1~porta_address_reg1	LIT INDEX 1 FANOUTS 0
-		6: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a1~porta_address_reg2	LIT INDEX 2 FANOUTS 0
-		7: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a1~porta_address_reg3	LIT INDEX 3 FANOUTS 0
-		8: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a1~porta_address_reg4	LIT INDEX 4 FANOUTS 0
-		9: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a1~porta_address_reg5	LIT INDEX 5 FANOUTS 0
-		10: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a1~porta_address_reg6	LIT INDEX 6 FANOUTS 0
-		11: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a1~porta_address_reg7	LIT INDEX 7 FANOUTS 0
-
-	PARAMETER LIST:
-		operation_mode                 = single_port
-		ram_block_type                 = auto
-		logical_ram_name               = XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ALTSYNCRAM
-		init_file                      = xram.mif
-		init_file_layout               = port_a
-		data_interleave_width_in_bits  = 1
-		data_interleave_offset_in_bits = 1
-		port_a_logical_ram_depth       = 256
-		port_a_logical_ram_width       = 8
-		port_a_data_in_clear           = none
-		port_a_address_clear           = none
-		port_a_write_enable_clear      = none
-		port_a_byte_enable_clear       = none
-		port_a_data_out_clock          = clock1
-		port_a_data_out_clear          = none
-		port_a_first_address           = 0
-		port_a_last_address            = 255
-		port_a_first_bit_number        = 1
-		port_a_data_width              = 1
-		port_a_address_width           = 8
-		DIRTY_FLAG                     = false
-		safe_write                     = err_on_2clk
-
-
-- ATOM ------------------------
-	ATOM_NAME: XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a2 -- UNIQUE
-	Atom Hier Name: 
-	Atom Id: 11
-	Atom Type: cycloneii_ram_block (WYSIWYG)
-
-	INPUTS (Driven By):
-		0: [PORTAWE]	~ !(logicProcess:inst17|inst27~0)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: [CLK0]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		5: [CLK1]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		6: NO ITERM
-		7: NO ITERM
-		8: NO ITERM
-		9: NO ITERM
-		10: [PORTADATAIN]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		11: [PORTAADDR]	  74377:MAR|28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		12: [PORTAADDR]	  74377:MAR|29	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		13: [PORTAADDR]	  74377:MAR|31	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		14: [PORTAADDR]	  74377:MAR|30	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		15: [PORTAADDR]	  74377:MAR|35	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		16: [PORTAADDR]	  74377:MAR|34	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		17: [PORTAADDR]	  74377:MAR|33	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		18: [PORTAADDR]	  74377:MAR|32	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-	OUTPUTS (Int. Connections):
-		0: [PORTADATAOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|q_a[2]	LIT INDEX 0 FANOUTS 1 REGED POS
-		1: [OBSERVABLEPORTAWEREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a2~porta_we_reg	LIT INDEX 0 FANOUTS 0
-		2: [OBSERVABLEPORTADATAINREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a2~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
-		3: [OBSERVABLEPORTAMEMORYREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a2~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
-		4: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a2~porta_address_reg0	LIT INDEX 0 FANOUTS 0
-		5: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a2~porta_address_reg1	LIT INDEX 1 FANOUTS 0
-		6: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a2~porta_address_reg2	LIT INDEX 2 FANOUTS 0
-		7: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a2~porta_address_reg3	LIT INDEX 3 FANOUTS 0
-		8: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a2~porta_address_reg4	LIT INDEX 4 FANOUTS 0
-		9: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a2~porta_address_reg5	LIT INDEX 5 FANOUTS 0
-		10: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a2~porta_address_reg6	LIT INDEX 6 FANOUTS 0
-		11: [OBSERVABLEPORTAADDRESSREGOUT]	XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ram_block1a2~porta_address_reg7	LIT INDEX 7 FANOUTS 0
-
-	PARAMETER LIST:
-		operation_mode                 = single_port
-		ram_block_type                 = auto
-		logical_ram_name               = XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|ALTSYNCRAM
-		init_file                      = xram.mif
-		init_file_layout               = port_a
-		data_interleave_width_in_bits  = 1
-		data_interleave_offset_in_bits = 1
-		port_a_logical_ram_depth       = 256
-		port_a_logical_ram_width       = 8
-		port_a_data_in_clear           = none
-		port_a_address_clear           = none
-		port_a_write_enable_clear      = none
-		port_a_byte_enable_clear       = none
-		port_a_data_out_clock          = clock1
-		port_a_data_out_clear          = none
-		port_a_first_address           = 0
-		port_a_last_address            = 255
-		port_a_first_bit_number        = 2
-		port_a_data_width              = 1
-		port_a_address_width           = 8
-		DIRTY_FLAG                     = false
-		safe_write                     = err_on_2clk
-
-
-- ATOM ------------------------
 	ATOM_NAME: T-COUNTER:inst16|74163:inst|f74163:sub|34 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 33
+	Atom Id: 29
 	Atom Type: cycloneii_lcell_ff
 
 	power up = low
@@ -826,7 +566,7 @@ Chip Device Options:
 		5: NO ITERM
 		6: NO ITERM
 	OUTPUTS (Int. Connections):
-		0: [REGOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0 FANOUTS 9 REGED POS
+		0: [REGOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0 FANOUTS 17 REGED POS
 
 	PARAMETER LIST:
 		EMPTY!!
@@ -835,7 +575,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: T-COUNTER:inst16|74163:inst|f74163:sub|111 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 34
+	Atom Id: 30
 	Atom Type: cycloneii_lcell_ff
 
 	power up = low
@@ -849,7 +589,7 @@ Chip Device Options:
 		5: NO ITERM
 		6: NO ITERM
 	OUTPUTS (Int. Connections):
-		0: [REGOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|111	LIT INDEX 0 FANOUTS 8 REGED POS
+		0: [REGOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|111	LIT INDEX 0 FANOUTS 3 REGED POS
 
 	PARAMETER LIST:
 		EMPTY!!
@@ -858,7 +598,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: T-COUNTER:inst16|74163:inst|f74163:sub|122 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 35
+	Atom Id: 31
 	Atom Type: cycloneii_lcell_ff
 
 	power up = low
@@ -872,7 +612,7 @@ Chip Device Options:
 		5: NO ITERM
 		6: NO ITERM
 	OUTPUTS (Int. Connections):
-		0: [REGOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|122	LIT INDEX 0 FANOUTS 9 REGED POS
+		0: [REGOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|122	LIT INDEX 0 FANOUTS 4 REGED POS
 
 	PARAMETER LIST:
 		EMPTY!!
@@ -881,7 +621,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: T-COUNTER:inst16|74163:inst|f74163:sub|134 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 36
+	Atom Id: 32
 	Atom Type: cycloneii_lcell_ff
 
 	power up = low
@@ -895,7 +635,7 @@ Chip Device Options:
 		5: NO ITERM
 		6: NO ITERM
 	OUTPUTS (Int. Connections):
-		0: [REGOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0 FANOUTS 14 REGED POS
+		0: [REGOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0 FANOUTS 4 REGED POS
 
 	PARAMETER LIST:
 		EMPTY!!
@@ -904,7 +644,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: T-COUNTER:inst16|74163:inst1|f74163:sub|34 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 37
+	Atom Id: 33
 	Atom Type: cycloneii_lcell_ff
 
 	power up = low
@@ -918,30 +658,7 @@ Chip Device Options:
 		5: NO ITERM
 		6: NO ITERM
 	OUTPUTS (Int. Connections):
-		0: [REGOUT]	T-COUNTER:inst16|74163:inst1|f74163:sub|34	LIT INDEX 0 FANOUTS 9 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst|f74163:sub|34 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 38
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 0 FANOUTS 14 REGED POS
+		0: [REGOUT]	T-COUNTER:inst16|74163:inst1|f74163:sub|34	LIT INDEX 0 FANOUTS 4 REGED POS
 
 	PARAMETER LIST:
 		EMPTY!!
@@ -950,7 +667,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst|f74163:sub|111 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 39
+	Atom Id: 34
 	Atom Type: cycloneii_lcell_ff
 
 	power up = low
@@ -973,7 +690,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst|f74163:sub|122 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 40
+	Atom Id: 35
 	Atom Type: cycloneii_lcell_ff
 
 	power up = low
@@ -987,7 +704,7 @@ Chip Device Options:
 		5: NO ITERM
 		6: NO ITERM
 	OUTPUTS (Int. Connections):
-		0: [REGOUT]	COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 0 FANOUTS 13 REGED POS
+		0: [REGOUT]	COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 0 FANOUTS 15 REGED POS
 
 	PARAMETER LIST:
 		EMPTY!!
@@ -996,7 +713,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst|f74163:sub|134 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 41
+	Atom Id: 36
 	Atom Type: cycloneii_lcell_ff
 
 	power up = low
@@ -1010,7 +727,7 @@ Chip Device Options:
 		5: NO ITERM
 		6: NO ITERM
 	OUTPUTS (Int. Connections):
-		0: [REGOUT]	COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 0 FANOUTS 12 REGED POS
+		0: [REGOUT]	COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 0 FANOUTS 14 REGED POS
 
 	PARAMETER LIST:
 		EMPTY!!
@@ -1019,7 +736,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst1|f74163:sub|34 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 42
+	Atom Id: 37
 	Atom Type: cycloneii_lcell_ff
 
 	power up = low
@@ -1033,7 +750,7 @@ Chip Device Options:
 		5: NO ITERM
 		6: NO ITERM
 	OUTPUTS (Int. Connections):
-		0: [REGOUT]	COUNTER-PLUS:inst32|74163:inst1|f74163:sub|34	LIT INDEX 0 FANOUTS 11 REGED POS
+		0: [REGOUT]	COUNTER-PLUS:inst32|74163:inst1|f74163:sub|34	LIT INDEX 0 FANOUTS 13 REGED POS
 
 	PARAMETER LIST:
 		EMPTY!!
@@ -1042,14 +759,14 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 43
+	Atom Id: 38
 	Atom Type: cycloneii_lcell_ff
 
 	power up = low
 
 	INPUTS (Driven By):
 		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		2: NO ITERM
 		3: NO ITERM
 		4: NO ITERM
@@ -1065,14 +782,14 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 44
+	Atom Id: 39
 	Atom Type: cycloneii_lcell_ff
 
 	power up = low
 
 	INPUTS (Driven By):
 		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		2: NO ITERM
 		3: NO ITERM
 		4: NO ITERM
@@ -1088,14 +805,14 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 45
+	Atom Id: 40
 	Atom Type: cycloneii_lcell_ff
 
 	power up = low
 
 	INPUTS (Driven By):
 		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		2: NO ITERM
 		3: NO ITERM
 		4: NO ITERM
@@ -1109,248 +826,30 @@ Chip Device Options:
 
 
 - ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|logicPr2:inst|74138:inst8|15~0 -- NON-UNIQUE
+	ATOM_NAME: T-COUNTER:inst16|74163:inst|f74163:sub|115 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 47
+	Atom Id: 42
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
-		0: [DATAA]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  T-COUNTER:inst16|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|logicPr2:inst|74138:inst8|15~0	LIT INDEX 0 FANOUTS 5
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 0001
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|inst25~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 48
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: [DATAD]	  T-COUNTER:inst16|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|inst25~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 0088
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MBR|28 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 49
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  74377:MBR|28~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	74377:MBR|28	LIT INDEX 0 FANOUTS 8 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MBR|30 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 50
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  74377:MBR|30~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	74377:MBR|30	LIT INDEX 0 FANOUTS 5 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|inst25~1 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 51
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  74377:MBR|28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  74377:MBR|30	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|inst25~1	LIT INDEX 0 FANOUTS 2
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = ecec
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MBR|29 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 52
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  74377:MBR|29~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	74377:MBR|29	LIT INDEX 0 FANOUTS 5 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|IR:inst31|74138:inst3|15~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 53
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  74377:MBR|30	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		0: NO ITERM
 		1: NO ITERM
-		2: NO ITERM
-		3: [DATAD]	  74377:MBR|29	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  T-COUNTER:inst16|74163:inst|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		4: NO ITERM
 	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|IR:inst31|74138:inst3|15~0	LIT INDEX 0 FANOUTS 2
+		0: [COMBOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|115	LIT INDEX 0 FANOUTS 1
 		1: NONE
 
 	PARAMETER LIST:
 		sum_lutc_input                 = datac
-		lut_mask                       = 00aa
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MBR|31 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 54
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  74377:MBR|31~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	74377:MBR|31	LIT INDEX 0 FANOUTS 5 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|inst25~2 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 55
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  74377:MBR|31	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  74377:MBR|29	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  74377:MBR|28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|inst25~2	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = ea88
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|inst25~3 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 56
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  logicProcess:inst17|IR:inst31|74138:inst3|15~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|inst25~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  logicProcess:inst17|inst25~2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|inst25~3	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 0380
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|inst25~4 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 57
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  logicProcess:inst17|logicPr2:inst|74138:inst8|15~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|inst25~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|inst25~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  logicProcess:inst17|inst25~3	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|inst25~4	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 4c00
+		lut_mask                       = 0ff0
 
 
 - ATOM ------------------------
 	ATOM_NAME: T-COUNTER:inst16|74163:inst|f74163:sub|106~0 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 58
+	Atom Id: 43
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
@@ -1369,205 +868,37 @@ Chip Device Options:
 
 
 - ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|logicPr2:inst|74138:inst10|18~0 -- NON-UNIQUE
+	ATOM_NAME: T-COUNTER:inst16|74163:inst|f74163:sub|126 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 59
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|106~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  T-COUNTER:inst16|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|logicPr2:inst|74138:inst10|18~0	LIT INDEX 0 FANOUTS 3
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 0008
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|inst25~5 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 60
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  74377:MBR|31	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  74377:MBR|28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  74377:MBR|29	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  74377:MBR|30	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|inst25~5	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = ffd0
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|inst25~6 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 61
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|logicPr2:inst|74138:inst8|15~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|logicPr2:inst|74138:inst10|18~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  logicProcess:inst17|inst25~5	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|inst25~6	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 0070
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|logicPr2:inst|74138:inst11|18~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 62
+	Atom Id: 44
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
 		0: [DATAA]	  T-COUNTER:inst16|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|106~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|logicPr2:inst|74138:inst11|18~0	LIT INDEX 0 FANOUTS 2
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 0008
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|IR:inst31|74138:inst|18~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 63
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  74377:MBR|31	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  74377:MBR|30	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|IR:inst31|74138:inst|18~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 1111
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|IR:inst31|74138:inst|18~1 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 64
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  74377:MBR|29	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|logicPr2:inst|74138:inst8|15~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  logicProcess:inst17|IR:inst31|74138:inst|18~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|IR:inst31|74138:inst|18~1	LIT INDEX 0 FANOUTS 4
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 2a00
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|inst25~7 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 65
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  logicProcess:inst17|inst25~4	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|inst25~6	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|logicPr2:inst|74138:inst11|18~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  logicProcess:inst17|IR:inst31|74138:inst|18~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|inst25~7	LIT INDEX 0 FANOUTS 4
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = feee
-
-
-- ATOM ------------------------
-	ATOM_NAME: T-COUNTER:inst16|74163:inst|f74163:sub|115 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 66
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: NO ITERM
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  logicProcess:inst17|inst25~7	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|115	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 003c
-
-
-- ATOM ------------------------
-	ATOM_NAME: T-COUNTER:inst16|74163:inst|f74163:sub|117 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 67
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: NO ITERM
+		3: [DATAD]	  T-COUNTER:inst16|74163:inst|f74163:sub|106~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		4: NO ITERM
 	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|117	LIT INDEX 0 FANOUTS 2
+		0: [COMBOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|126	LIT INDEX 0 FANOUTS 1
 		1: NONE
 
 	PARAMETER LIST:
 		sum_lutc_input                 = datac
-		lut_mask                       = 8080
+		lut_mask                       = 0bf0
 
 
 - ATOM ------------------------
 	ATOM_NAME: T-COUNTER:inst16|74163:inst|f74163:sub|137 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 68
+	Atom Id: 45
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
-		0: NO ITERM
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|117	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  logicProcess:inst17|inst25~7	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		0: [DATAA]	  T-COUNTER:inst16|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  T-COUNTER:inst16|74163:inst|f74163:sub|106~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		4: NO ITERM
 	OUTPUTS (Int. Connections):
 		0: [COMBOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|137	LIT INDEX 0 FANOUTS 1
@@ -1575,20 +906,20 @@ Chip Device Options:
 
 	PARAMETER LIST:
 		sum_lutc_input                 = datac
-		lut_mask                       = 003c
+		lut_mask                       = 2cf0
 
 
 - ATOM ------------------------
 	ATOM_NAME: T-COUNTER:inst16|74163:inst1|f74163:sub|68 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 69
+	Atom Id: 46
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
 		0: [DATAA]	  T-COUNTER:inst16|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|117	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  logicProcess:inst17|inst25~7	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  T-COUNTER:inst16|74163:inst|f74163:sub|106~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		4: NO ITERM
 	OUTPUTS (Int. Connections):
 		0: [COMBOUT]	T-COUNTER:inst16|74163:inst1|f74163:sub|68	LIT INDEX 0 FANOUTS 1
@@ -1596,19 +927,19 @@ Chip Device Options:
 
 	PARAMETER LIST:
 		sum_lutc_input                 = datac
-		lut_mask                       = 006a
+		lut_mask                       = 6aaa
 
 
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst|f74163:sub|111~0 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 70
+	Atom Id: 47
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
 		0: NO ITERM
 		1: NO ITERM
-		2: [DATAC]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		3: [DATAD]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		4: NO ITERM
 	OUTPUTS (Int. Connections):
@@ -1623,13 +954,13 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst|f74163:sub|122~0 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 71
+	Atom Id: 48
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
 		0: NO ITERM
 		1: [DATAB]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		3: [DATAD]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		4: NO ITERM
 	OUTPUTS (Int. Connections):
@@ -1644,12 +975,12 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst|f74163:sub|134~0 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 72
+	Atom Id: 49
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
 		0: [DATAA]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		2: [DATAC]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		3: [DATAD]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		4: NO ITERM
@@ -1665,17 +996,17 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst|f74163:sub|106 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 73
+	Atom Id: 50
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
-		0: [DATAA]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		0: [DATAA]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		1: [DATAB]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		2: NO ITERM
 		3: NO ITERM
 		4: NO ITERM
 	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	COUNTER-PLUS:inst32|74163:inst|f74163:sub|106	LIT INDEX 0 FANOUTS 2
+		0: [COMBOUT]	COUNTER-PLUS:inst32|74163:inst|f74163:sub|106	LIT INDEX 0 FANOUTS 4
 		1: NONE
 
 	PARAMETER LIST:
@@ -1686,7 +1017,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst1|f74163:sub|34~0 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 74
+	Atom Id: 51
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
@@ -1705,37 +1036,16 @@ Chip Device Options:
 
 
 - ATOM ------------------------
-	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst1|f74163:sub|73 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 75
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|106	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	COUNTER-PLUS:inst32|74163:inst1|f74163:sub|73	LIT INDEX 0 FANOUTS 3
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 8000
-
-
-- ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111~0 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 76
+	Atom Id: 52
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
-		0: NO ITERM
-		1: NO ITERM
-		2: [DATAC]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|73	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		0: [DATAA]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
 		4: NO ITERM
 	OUTPUTS (Int. Connections):
 		0: [COMBOUT]	COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111~0	LIT INDEX 0 FANOUTS 1
@@ -1743,20 +1053,41 @@ Chip Device Options:
 
 	PARAMETER LIST:
 		sum_lutc_input                 = datac
-		lut_mask                       = 0ff0
+		lut_mask                       = 7777
+
+
+- ATOM ------------------------
+	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111~1 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 53
+	Atom Type: cycloneii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|106	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111~1	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = aa6a
 
 
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122~0 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 77
+	Atom Id: 54
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
-		0: NO ITERM
-		1: [DATAB]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|73	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		0: [DATAA]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: NO ITERM
 		4: NO ITERM
 	OUTPUTS (Int. Connections):
 		0: [COMBOUT]	COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122~0	LIT INDEX 0 FANOUTS 1
@@ -1764,20 +1095,41 @@ Chip Device Options:
 
 	PARAMETER LIST:
 		sum_lutc_input                 = datac
-		lut_mask                       = 3ccc
+		lut_mask                       = 7f7f
+
+
+- ATOM ------------------------
+	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122~1 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 55
+	Atom Type: cycloneii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|106	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122~1	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = aa6a
 
 
 - ATOM ------------------------
 	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134~0 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 78
+	Atom Id: 56
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
-		0: [DATAA]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|73	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		0: [DATAA]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		4: NO ITERM
 	OUTPUTS (Int. Connections):
 		0: [COMBOUT]	COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134~0	LIT INDEX 0 FANOUTS 1
@@ -1785,738 +1137,34 @@ Chip Device Options:
 
 	PARAMETER LIST:
 		sum_lutc_input                 = datac
-		lut_mask                       = 6aaa
+		lut_mask                       = 7fff
 
 
 - ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|IR:inst31|74138:inst3|15~1 -- NON-UNIQUE
+	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134~1 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 79
+	Atom Id: 57
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
-		0: [DATAA]	  logicProcess:inst17|IR:inst31|74138:inst3|15~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|logicPr2:inst|74138:inst8|15~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  74377:MBR|31	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		0: [DATAA]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|106	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		4: NO ITERM
 	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|IR:inst31|74138:inst3|15~1	LIT INDEX 0 FANOUTS 4
+		0: [COMBOUT]	COUNTER-PLUS:inst32|74163:inst1|f74163:sub|134~1	LIT INDEX 0 FANOUTS 1
 		1: NONE
 
 	PARAMETER LIST:
 		sum_lutc_input                 = datac
-		lut_mask                       = 002a
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|logicPr2:inst|74138:inst10|21~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 80
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  T-COUNTER:inst16|74163:inst|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: [DATAD]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|logicPr2:inst|74138:inst10|21~0	LIT INDEX 0 FANOUTS 2
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 0088
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|inst12~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 81
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  T-COUNTER:inst16|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|logicPr2:inst|74138:inst10|21~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: [DATAD]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|inst12~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 0088
-
-
-- ATOM ------------------------
-	ATOM_NAME: inst12~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 82
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  logicProcess:inst17|IR:inst31|74138:inst3|15~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|logicPr2:inst|74138:inst10|18~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|inst12~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  74377:MBR|28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	inst12~0	LIT INDEX 0 FANOUTS 4
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 88a0
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MBR|28~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 83
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  74377:MBR|28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|q_a[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|inst10	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  inst12~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	74377:MBR|28~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = aaac
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MBR|30~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 84
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  74377:MBR|30	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|q_a[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|inst10	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  inst12~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	74377:MBR|30~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = aaac
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MBR|29~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 85
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  74377:MBR|29	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|inst10	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|q_a[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  inst12~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	74377:MBR|29~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 88b8
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MBR|31~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 86
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  74377:MBR|31	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|inst10	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  XRAM:inst7|dram:inst|altsyncram:altsyncram_component|altsyncram_8ca1:auto_generated|q_a[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  inst12~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	74377:MBR|31~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 88b8
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|logicPr2:inst|74138:inst8|18~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 87
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  T-COUNTER:inst16|74163:inst|f74163:sub|106~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  T-COUNTER:inst16|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|logicPr2:inst|74138:inst8|18~0	LIT INDEX 0 FANOUTS 2
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 0002
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|logicPr2:inst|74138:inst10|21~1 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 88
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|logicPr2:inst|74138:inst10|21~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: [DATAD]	  T-COUNTER:inst16|74163:inst1|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|logicPr2:inst|74138:inst10|21~1	LIT INDEX 0 FANOUTS 3
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 0088
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|inst27~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 89
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  logicProcess:inst17|logicPr2:inst|74138:inst8|18~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|IR:inst31|74138:inst|18~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|logicPr2:inst|74138:inst10|21~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|inst27~0	LIT INDEX 0 FANOUTS 4
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = eaea
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MAR|28 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 90
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  PC:inst4|D0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: [ENA]	  inst14~2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	74377:MAR|28	LIT INDEX 0 FANOUTS 4 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MAR|29 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 91
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  PC:inst4|D1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: [ENA]	  inst14~2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	74377:MAR|29	LIT INDEX 0 FANOUTS 4 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MAR|31 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 92
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  PC:inst4|D2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: [ENA]	  inst14~2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	74377:MAR|31	LIT INDEX 0 FANOUTS 4 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MAR|30 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 93
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  PC:inst4|D3	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: [ENA]	  inst14~2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	74377:MAR|30	LIT INDEX 0 FANOUTS 4 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MAR|35 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 94
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  PC:inst4|D4	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: [ENA]	  inst14~2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	74377:MAR|35	LIT INDEX 0 FANOUTS 4 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MAR|34 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 95
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  PC:inst4|D5	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: [ENA]	  inst14~2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	74377:MAR|34	LIT INDEX 0 FANOUTS 4 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MAR|33 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 96
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  PC:inst4|D6	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: [ENA]	  inst14~2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	74377:MAR|33	LIT INDEX 0 FANOUTS 4 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: 74377:MAR|32 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 97
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  CLK	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
-		1: [DATAIN]	  PC:inst4|D7	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: [ENA]	  inst14~2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	74377:MAR|32	LIT INDEX 0 FANOUTS 4 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|inst10~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 98
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  logicProcess:inst17|logicPr2:inst|74138:inst10|21~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|IR:inst31|74138:inst|18~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|IR:inst31|74138:inst3|15~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  74377:MBR|28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|inst10~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 88a8
-
-
-- ATOM ------------------------
-	ATOM_NAME: logicProcess:inst17|inst10 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 99
-	Atom Type: cycloneii_lcell_comb (USER_LCELL)
-
-	INPUTS (Driven By):
-		0: [DATAA]	  logicProcess:inst17|inst10~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|logicPr2:inst|74138:inst8|18~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	logicProcess:inst17|inst10	LIT INDEX 0 FANOUTS 5
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = eeee
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 100
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  logicProcess:inst17|inst10	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAIN]	  PC:inst4|D0~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	PC:inst4|D0	LIT INDEX 0 FANOUTS 3 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: inst14~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 101
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  logicProcess:inst17|logicPr2:inst|74138:inst10|18~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|IR:inst31|74138:inst|18~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|IR:inst31|74138:inst3|15~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  74377:MBR|28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	inst14~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 88a8
-
-
-- ATOM ------------------------
-	ATOM_NAME: inst14~1 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 102
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  logicProcess:inst17|IR:inst31|74138:inst3|15~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  logicProcess:inst17|logicPr2:inst|74138:inst10|21~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|logicPr2:inst|74138:inst11|18~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  74377:MBR|28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	inst14~1	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 88a0
-
-
-- ATOM ------------------------
-	ATOM_NAME: inst14~2 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 103
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  inst14~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  inst14~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  logicProcess:inst17|logicPr2:inst|74138:inst8|15~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  T-COUNTER:inst16|74163:inst|f74163:sub|134	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	inst14~2	LIT INDEX 0 FANOUTS 8
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 1101
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D1 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 104
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  !(PC:inst4|D0)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAIN]	  PC:inst4|D1~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	PC:inst4|D1	LIT INDEX 0 FANOUTS 3 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D2 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 105
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  !(PC:inst4|D1)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAIN]	  PC:inst4|D2~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	PC:inst4|D2	LIT INDEX 0 FANOUTS 3 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D3 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 106
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  !(PC:inst4|D2)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAIN]	  PC:inst4|D3~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	PC:inst4|D3	LIT INDEX 0 FANOUTS 3 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D4 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 107
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  !(PC:inst4|D3)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAIN]	  PC:inst4|D4~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	PC:inst4|D4	LIT INDEX 0 FANOUTS 3 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D5 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 108
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  !(PC:inst4|D4)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAIN]	  PC:inst4|D5~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	PC:inst4|D5	LIT INDEX 0 FANOUTS 3 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D6 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 109
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  !(PC:inst4|D5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAIN]	  PC:inst4|D6~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	PC:inst4|D6	LIT INDEX 0 FANOUTS 3 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D7 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 110
-	Atom Type: cycloneii_lcell_ff
-
-	power up = low
-
-	INPUTS (Driven By):
-		0: [CLK]	  !(PC:inst4|D6)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAIN]	  PC:inst4|D7~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-		5: NO ITERM
-		6: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [REGOUT]	PC:inst4|D7	LIT INDEX 0 FANOUTS 2 REGED POS
-
-	PARAMETER LIST:
-		EMPTY!!
-
-
-- ATOM ------------------------
-	ATOM_NAME: T-COUNTER:inst16|74163:inst|f74163:sub|126 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 111
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: [DATAB]	  T-COUNTER:inst16|74163:inst|f74163:sub|111	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		2: [DATAC]	  T-COUNTER:inst16|74163:inst|f74163:sub|122	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		3: [DATAD]	  logicProcess:inst17|inst25~7	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	T-COUNTER:inst16|74163:inst|f74163:sub|126	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 0078
+		lut_mask                       = aa6a
 
 
 - ATOM ------------------------
 	ATOM_NAME: T-COUNTER:inst16|74163:inst|f74163:sub|34~0 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 112
+	Atom Id: 58
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
@@ -2535,198 +1183,9 @@ Chip Device Options:
 
 
 - ATOM ------------------------
-	ATOM_NAME: COUNTER-PLUS:inst32|74163:inst|f74163:sub|34~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 113
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	COUNTER-PLUS:inst32|74163:inst|f74163:sub|34~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 5555
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D0~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 114
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  PC:inst4|D0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	PC:inst4|D0~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 5555
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D1~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 115
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  PC:inst4|D1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	PC:inst4|D1~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 5555
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D2~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 116
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  PC:inst4|D2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	PC:inst4|D2~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 5555
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D3~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 117
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  PC:inst4|D3	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	PC:inst4|D3~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 5555
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D4~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 118
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  PC:inst4|D4	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	PC:inst4|D4~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 5555
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D5~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 119
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  PC:inst4|D5	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	PC:inst4|D5~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 5555
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D6~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 120
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  PC:inst4|D6	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	PC:inst4|D6~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 5555
-
-
-- ATOM ------------------------
-	ATOM_NAME: PC:inst4|D7~0 -- NON-UNIQUE
-	Atom Hier Name: 
-	Atom Id: 121
-	Atom Type: cycloneii_lcell_comb
-
-	INPUTS (Driven By):
-		0: [DATAA]	  PC:inst4|D7	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
-		1: NO ITERM
-		2: NO ITERM
-		3: NO ITERM
-		4: NO ITERM
-	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	PC:inst4|D7~0	LIT INDEX 0 FANOUTS 1
-		1: NONE
-
-	PARAMETER LIST:
-		sum_lutc_input                 = datac
-		lut_mask                       = 5555
-
-
-- ATOM ------------------------
 	ATOM_NAME: ~GND -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 122
+	Atom Id: 59
 	Atom Type: cycloneii_lcell_comb
 
 	INPUTS (Driven By):
@@ -2747,7 +1206,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNT1 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 125
+	Atom Id: 62
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -2802,7 +1261,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNT2 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 126
+	Atom Id: 63
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -2857,7 +1316,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNT3 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 127
+	Atom Id: 64
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -2912,7 +1371,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNT4 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 128
+	Atom Id: 65
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -2967,7 +1426,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: COUNT5 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 129
+	Atom Id: 66
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3022,7 +1481,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: A1 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 130
+	Atom Id: 67
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3077,7 +1536,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: A2 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 131
+	Atom Id: 68
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3132,7 +1591,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: A3 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 132
+	Atom Id: 69
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3187,7 +1646,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: A4 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 133
+	Atom Id: 70
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3242,7 +1701,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: A5 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 134
+	Atom Id: 71
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3297,7 +1756,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: A6 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 135
+	Atom Id: 72
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3352,7 +1811,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: A7 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 136
+	Atom Id: 73
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3407,7 +1866,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: A8 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 137
+	Atom Id: 74
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3462,11 +1921,11 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: OUT1 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 138
+	Atom Id: 75
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
-		0: [DATAIN]	  COUNTER-PLUS:inst32|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		0: [DATAIN]	  T-COUNTER:inst16|74163:inst|f74163:sub|34	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
 		1: NO ITERM
 		2: NO ITERM
 		3: NO ITERM
@@ -3517,7 +1976,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: OUT2 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 139
+	Atom Id: 76
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3572,7 +2031,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: OUT3 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 140
+	Atom Id: 77
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3627,7 +2086,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: OUT4 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 141
+	Atom Id: 78
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3682,7 +2141,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: OUT5 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 142
+	Atom Id: 79
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3737,7 +2196,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: OUT6 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 143
+	Atom Id: 80
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3792,7 +2251,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: OUT7 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 144
+	Atom Id: 81
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3847,7 +2306,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: OUT8 -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 145
+	Atom Id: 82
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3902,7 +2361,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: CLK -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 146
+	Atom Id: 83
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -3918,7 +2377,7 @@ Chip Device Options:
 		9: NO ITERM
 		10: [PADIO]	DISCONNECTED
 	OUTPUTS (Int. Connections):
-		0: [COMBOUT]	CLK	LIT INDEX 0 FANOUTS 49
+		0: [COMBOUT]	CLK	LIT INDEX 0 FANOUTS 28
 		1: NONE
 		2: NONE
 		3: NONE
@@ -3957,7 +2416,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: ~ASDO~ -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 147
+	Atom Id: 84
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -4012,7 +2471,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: ~nCSO~ -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 148
+	Atom Id: 85
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
@@ -4067,7 +2526,7 @@ Chip Device Options:
 - ATOM ------------------------
 	ATOM_NAME: ~LVDS54p/nCEO~ -- NON-UNIQUE
 	Atom Hier Name: 
-	Atom Id: 149
+	Atom Id: 86
 	Atom Type: cycloneii_io
 
 	INPUTS (Driven By):
