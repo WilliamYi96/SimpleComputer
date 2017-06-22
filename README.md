@@ -30,8 +30,8 @@ This is the design and implementation of a simple computer by using quartus II 9
 |0000 0101| OR A, B|q6|Logic process AorB, and then put into A|
 |0000 0110| MOV, A, R|q7|Put the content of R into A|
 |0000 0111| MOC A, R|q8|Put the content of R into B|
-|0000 1000| LDI A, OPRD|Put the oprands into A|
-|0000 1001| LDC B, OPRD|Put the oprands into B|
+|0000 1000| LDI A, OPRD|q9|Put the oprands into A|
+|0000 1001| LDC B, OPRD|q10|Put the oprands into B|
 
 # Test Repo
 |Address|Content|Description||
