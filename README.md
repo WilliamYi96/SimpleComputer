@@ -34,7 +34,8 @@ This is the design and implementation of a simple computer by using quartus II 9
 |0000 1001| LDC B, OPRD|q10|Put the oprands into B|
 
 # Test Repo
-|Address|Content|Description||
+|Address|Content|Description|
+|---|---|---|
 0000 0000 | 0000 0110 | Put the content of R into A|
 0000 0001 | 0000 1001 |  Put the oprands of the following address into B|
 0000 0010 | 0000 1110 |  oprands -- 0000 1110|
@@ -61,4 +62,4 @@ e). 00001010
 f). 00000010                
 g). 00000111                
 
-More information and details can be seen at our report. [Report](./中级计算机的设计与实现.pdf)
+[More information and details can be seen at our report](./中级计算机的设计与实现.pdf)
